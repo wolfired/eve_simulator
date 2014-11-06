@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillOutlineWindow" itemID="544de278-000001d5" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillOutlineWindow" lastModified="1415251404" lastUniqueIdentifier="15" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillOutlineWindow" itemID="544de278-000001d5" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillOutlineWindow" lastModified="1415280837" lastUniqueIdentifier="15" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillOutlineWindow">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMComponentInstance libraryItemName="component/Button" name="_btn_new" centerPoint3DX="83" centerPoint3DY="500" uniqueID="6">
                   <matrix>
-                    <Matrix a="1.62001037597656" tx="2" ty="489"/>
+                    <Matrix a="1.6199951171875" tx="2" ty="489"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -92,11 +92,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 4" color="#FF4FFF" locked="true" current="true" isSelected="true">
+        <DOMLayer name="图层 4" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/List" name="_list" selected="true" centerPoint3DX="83.15" centerPoint3DY="266" uniqueID="15">
+                <DOMComponentInstance libraryItemName="component/List" name="_list" centerPoint3DX="83.15" centerPoint3DY="266" uniqueID="15">
                   <matrix>
                     <Matrix a="1.61997985839844" d="4.42001342773438" tx="2" ty="45"/>
                   </matrix>
@@ -156,7 +156,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 1" color="#4FFF4F" locked="true">
+        <DOMLayer name="图层 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

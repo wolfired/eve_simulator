@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Button" itemID="44a4944a-00000029" linkageExportForAS="true" linkageClassName="fl.controls.Button" lastModified="1292423117" lastUniqueIdentifier="31" tooltip="Button" customIconID="0" actionscriptClass="fl.controls.Button" livePreviewScmHRef="hadpvx0lui.swf" livePreviewScmSourceFilename="Button.swf" persistLivePreview11="true" livePreview11ScmHRef="hadpvx0lui6.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxl7jkayls3..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Button" itemID="44a4944a-00000029" linkageExportForAS="true" linkageClassName="fl.controls.Button" lastModified="1415280480" lastUniqueIdentifier="31" tooltip="Button" customIconID="0" actionscriptClass="fl.controls.Button" livePreviewScmHRef="hadpvx0lui.swf" livePreviewScmSourceFilename="Button.swf" persistLivePreview11="true" livePreview11ScmHRef="hadpvx0lui6.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxl7jkayls3..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="Button" currentFrame="1">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_disabledSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_disabledSkin" centerPoint3DX="70" centerPoint3DY="276.95">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="28.95" ty="265.95"/>
                   </matrix>
@@ -17,7 +17,7 @@
                     <Point x="41.05" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_downSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_downSkin" centerPoint3DX="70" centerPoint3DY="149">
                   <matrix>
                     <Matrix tx="29" ty="138"/>
                   </matrix>
@@ -25,7 +25,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_emphasizedSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_emphasizedSkin" centerPoint3DX="70" centerPoint3DY="244.95">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="28.95" ty="233.95"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Point x="41.05" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_overSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_overSkin" centerPoint3DX="70" centerPoint3DY="181">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="29" ty="170"/>
                   </matrix>
@@ -41,7 +41,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedDisabledSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedDisabledSkin" centerPoint3DX="78.95" centerPoint3DY="82.7">
                   <matrix>
                     <Matrix tx="46.95" ty="71.7"/>
                   </matrix>
@@ -49,7 +49,7 @@
                     <Point x="41.05" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedDownSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedDownSkin" centerPoint3DX="79" centerPoint3DY="114.7">
                   <matrix>
                     <Matrix tx="47" ty="103.7"/>
                   </matrix>
@@ -57,7 +57,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedOverSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedOverSkin" centerPoint3DX="79" centerPoint3DY="50.7">
                   <matrix>
                     <Matrix tx="47" ty="39.7"/>
                   </matrix>
@@ -65,7 +65,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedUpSkin" selected="true">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_selectedUpSkin" centerPoint3DX="79" centerPoint3DY="18.7">
                   <matrix>
                     <Matrix tx="47" ty="7.7"/>
                   </matrix>
@@ -73,7 +73,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_upSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ButtonSkins/Button_upSkin" centerPoint3DX="70" centerPoint3DY="212.95">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="29" ty="201.95"/>
                   </matrix>
@@ -81,7 +81,7 @@
                     <Point x="41" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/Shared/focusRectSkin">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/Shared/focusRectSkin" centerPoint3DX="70" centerPoint3DY="310.9">
                   <matrix>
                     <Matrix d="0.999664306640625" tx="28.95" ty="299.9"/>
                   </matrix>
@@ -165,7 +165,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.9.20'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

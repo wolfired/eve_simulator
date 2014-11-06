@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem" itemID="544f25b4-00000416" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem" lastModified="1415252716" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem" itemID="544f25b4-00000416" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem" lastModified="1415281027" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillItem">
       <layers>
-        <DOMLayer name="图层 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
+        <DOMLayer name="图层 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

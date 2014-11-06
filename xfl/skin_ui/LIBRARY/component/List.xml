@@ -1,15 +1,15 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/List" itemID="44e5f6db-00000035" linkageExportForAS="true" linkageClassName="fl.controls.List" lastModified="1415163164" lastUniqueIdentifier="16" isSpriteSubclass="true" tooltip="List" customIconID="0" actionscriptClass="fl.controls.List" livePreviewScmHRef="haettx0luj.swf" livePreviewScmSourceFilename="List.swf" persistLivePreview11="true" livePreview11ScmHRef="5gj9qe3brl.swf" livePreview11ScmSourceFilename="C:\Users\zelda\AppData\Local\Adobe\Flash CS6\zh_CN\Configuration\TMP5fn0pe3bqg..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/List" itemID="44e5f6db-00000035" linkageExportForAS="true" linkageClassName="fl.controls.List" lastModified="1415280515" lastUniqueIdentifier="16" isSpriteSubclass="true" tooltip="List" customIconID="0" actionscriptClass="fl.controls.List" livePreviewScmHRef="haettx0luj.swf" livePreviewScmSourceFilename="List.swf" persistLivePreview11="true" livePreview11ScmHRef="5gj9qe3brl.swf" livePreview11ScmSourceFilename="C:\Users\zelda\AppData\Local\Adobe\Flash CS6\zh_CN\Configuration\TMP5fn0pe3bqg..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="List" currentFrame="1">
       <layers>
-        <DOMLayer name="assets" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="assets" color="#FFFF4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ListSkins/List_skin" selected="true">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ListSkins/List_skin" centerPoint3DX="121.2" centerPoint3DY="67.8">
                   <matrix>
                     <Matrix a="0.38970947265625" d="0.3896484375" tx="68" ty="30.4"/>
                   </matrix>
@@ -17,7 +17,7 @@
                     <Point x="136" y="95.45"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/CellRenderer">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/CellRenderer" centerPoint3DX="101" centerPoint3DY="277.25">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="25" ty="266.25"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Point x="41.05" y="11"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="component/Component Assets/ScrollBar">
+                <DOMSymbolInstance libraryItemName="component/Component Assets/ScrollBar" centerPoint3DX="166.5" centerPoint3DY="183.3">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="159" ty="133.3"/>
                   </matrix>
@@ -45,14 +45,14 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="asset names" color="#4FFFFF" locked="true" autoNamed="false" layerType="guide">
+        <DOMLayer name="asset names" color="#4FFFFF" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="391" objectHeight="373.95" x="88" y="86" lockFlag="true" topLeftRadius="20" topRightRadius="20" bottomLeftRadius="20" bottomRightRadius="20">
+                <DOMRectangleObject objectWidth="391" objectHeight="373.95" x="88" y="86" selected="true" lockFlag="true" topLeftRadius="20" topRightRadius="20" bottomLeftRadius="20" bottomRightRadius="20">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="-88" ty="-86"/>
                   </matrix>
@@ -67,7 +67,7 @@
                     </SolidStroke>
                   </stroke>
                 </DOMRectangleObject>
-                <DOMStaticText width="88.4" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="88.4" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="243.1" ty="135.3"/>
                   </matrix>
@@ -80,7 +80,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="53" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="53" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="243.1" ty="32.4"/>
                   </matrix>
@@ -93,7 +93,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="116" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="116" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="243.1" ty="268.25"/>
                   </matrix>
@@ -106,7 +106,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText width="94.9" height="14.5" autoExpand="true" isSelectable="false">
+                <DOMStaticText selected="true" width="94.9" height="14.5" autoExpand="true" isSelectable="false">
                   <matrix>
                     <Matrix d="0.999862670898438" tx="243.1" ty="316.75"/>
                   </matrix>
@@ -153,7 +153,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.15.35.12'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.15.35.12'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

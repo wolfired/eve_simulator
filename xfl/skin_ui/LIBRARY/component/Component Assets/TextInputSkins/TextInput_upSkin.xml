@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/TextInputSkins/TextInput_upSkin" itemID="44b148bb-000000ef" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="TextInput_upSkin" scaleGridLeft="2.25" scaleGridRight="150.05" scaleGridTop="1.45" scaleGridBottom="20.05" lastModified="1168290434">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/TextInputSkins/TextInput_upSkin" itemID="44b148bb-000000ef" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="TextInput_upSkin" scaleGridLeft="2.25" scaleGridRight="150.05" scaleGridTop="1.45" scaleGridBottom="20.05" lastModified="1415280482">
   <timeline>
     <DOMTimeline name="TextInput_upSkin">
       <layers>
@@ -22,18 +22,18 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!3020 20|3020 0"/>
-                    <Edge fillStyle0="2" edges="!3020 0|0 0!0 0|0 20"/>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!0 20|20 20"/>
-                    <Edge fillStyle0="2" fillStyle1="4" edges="!20 20|3020 20"/>
+                    <Edge fillStyle0="1" edges="!3020 440|3040 440!3040 440|3040 0!3040 0|3020 0"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!3020 0|3020 20"/>
                     <Edge fillStyle0="1" fillStyle1="4" edges="!3020 20|3020 420"/>
                     <Edge fillStyle0="1" fillStyle1="3" edges="!3020 420|3020 440"/>
-                    <Edge fillStyle1="3" edges="!3020 440|20 440"/>
-                    <Edge fillStyle1="1" edges="!20 440|0 440!0 440|0 20"/>
-                    <Edge fillStyle0="1" edges="!3020 440|3040 440!3040 440|3040 0!3040 0|3020 0"/>
-                    <Edge fillStyle0="3" fillStyle1="1" edges="!20 420|20 440"/>
                     <Edge fillStyle0="1" fillStyle1="4" edges="!20 420|20 20"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!20 20|0 20"/>
+                    <Edge fillStyle0="1" edges="!0 20|0 440!0 440|20 440"/>
+                    <Edge fillStyle0="1" fillStyle1="3" edges="!20 440|20 420"/>
+                    <Edge fillStyle0="2" edges="!3020 0|0 0!0 0|0 20"/>
                     <Edge fillStyle0="3" fillStyle1="4" edges="!3020 420|20 420"/>
+                    <Edge fillStyle1="3" edges="!3020 440|20 440"/>
+                    <Edge fillStyle0="2" fillStyle1="4" edges="!20 20|3020 20"/>
                     <Edge cubics="!3020 420(;3020,420 3020,440 3020,440q3020 420 3020 440);"/>
                     <Edge cubics="!3020 440(;3020,440 3040,440 3040,440q3020 440 3040 440);"/>
                     <Edge cubics="!3040 440(;3040,440 3040,0 3040,0q3040 440 3040 0);"/>
