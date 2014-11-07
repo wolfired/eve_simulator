@@ -1,4 +1,4 @@
-package{
+package es.evt{
 	import flash.events.Event;
 	
 	public class GlobalEvent extends Event{
@@ -8,7 +8,7 @@ package{
 			Global.ins.dispatchEvent(evt);
 		}
 		
-		public static const EVT_LOADED_SKILL_CONFIGS:String = "GlobalEvent_EVT_LOADED_SKILL_CONFIGS";
+		public static const EVT_SKILL_SET_UPDATE:String = "GlobalEvent_EVT_SKILL_SET_UPDATE";
 		
 		public function GlobalEvent(type:String, bubbles:Boolean=false, cancelable:Boolean=false){
 			super(type, bubbles, cancelable);

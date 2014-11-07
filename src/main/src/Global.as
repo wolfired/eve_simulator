@@ -2,16 +2,26 @@ package{
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
+	import flash.events.MouseEvent;
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
+	import flash.utils.Dictionary;
 	
 	import by.blooddy.crypto.serialization.JSON;
 	
-	import ui.SkillEditWindow;
-	import ui.SkillOutlineWindow;
+	import es.ds.DragData;
+	import es.ds.SkillConfig;
+	import es.evt.GlobalEvent;
+	import es.ui.SkillEditWindow;
+	import es.ui.SkillOutlineWindow;
+	import es.ui.SkillStudyWindow;
+	import es.ui.VisualContainer;
+	import es.ui.VisualObject;
 
 	public final class Global extends EventDispatcher{
+		private static var OFFSET:uint = 0;
+		
 		public static const SKILL_TYPE:Array = [
 			{label:"-", id:0},
 			{label:"导弹", id:1},
@@ -59,22 +69,34 @@ package{
 		
 		private var _panel:Sprite;
 		private var _skill_set:Array = [];
+		private var _skill_set4edit:Array = [];
+		private var _skill_set4study:Array = [];
 		private var _max_skill_id:uint = 10000;
-		private var _skill_configs_dir:File = new File();
+//		private var _skill_configs_dir:File = new File();
+		private var _skill_configs_dir:File = new File("E:/workspace_git/eve_simulator/cfg");
+		
+		private var _skill_outline_window:SkillOutlineWindow;
+		private var _skill_study_window:SkillStudyWindow;
 		
 		public function setup(panel:Sprite):void{
 			_panel = panel;
-			_panel.addChild(new SkillOutlineWindow());
+			
+			_skill_outline_window = new SkillOutlineWindow();
+			_panel.addChild(_skill_outline_window);
 			
 			this.selectSkillConfigDir();
 		}
 		
 		private function selectSkillConfigDir():void{
-			_skill_configs_dir.addEventListener(Event.SELECT, loadSkillConfigs);
+			_skill_configs_dir.addEventListener(Event.SELECT, onSelectDir);
 			_skill_configs_dir.browseForDirectory("选择技能配置目录");
 		}
 		
-		private function loadSkillConfigs(event:Event):void{
+		private function onSelectDir(event:Event):void{
+			this.loadSkillConfigs();
+		}
+		
+		private function loadSkillConfigs():void{
 			var skill_configs_file:Array = _skill_configs_dir.getDirectoryListing();
 			var skill_config_content:String;
 			var skill_config:SkillConfig;
@@ -88,20 +110,82 @@ package{
 				}
 			}
 			
-			GlobalEvent.trigger(GlobalEvent.EVT_LOADED_SKILL_CONFIGS);
+			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
 		}
 		
-		public function showWindow(w:Sprite):void{
+		public function showSkillEditWindow(skill_cfg:SkillConfig = null, editable:Boolean = true):void{
+			if(null == skill_cfg){
+				skill_cfg = new SkillConfig();
+			}
+			var sew:SkillEditWindow = _skill_set4edit[skill_cfg.id] as SkillEditWindow;
 			
+			if(null == sew){
+				_skill_set4edit[skill_cfg.id] = sew = new SkillEditWindow();
+			}
+			
+			if(null == sew.parent){
+				sew.skill_cfg = skill_cfg;
+				sew.editable = editable;
+				
+				var offset_x:Number = 243;
+				var offset_y:Number = 0;
+				sew.x = offset_x + OFFSET++ % 10 * 38;
+				sew.y = offset_y;
+				
+				_panel.addChild(sew);
+				
+				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			}else{
+				this.hideSkillEditWindow(skill_cfg.id);
+			}
 		}
 		
-		public function showSkillEditWindow(skill_cfg:SkillConfig = null):void{
-			var sew:SkillEditWindow = new SkillEditWindow();
-			sew.skill_cfg = skill_cfg;
-			_panel.addChild(sew);
+		public function hideSkillEditWindow(skill_id:uint):void{
+			var sew:SkillEditWindow = _skill_set4edit[skill_id] as SkillEditWindow;
+			
+			if(null != sew){
+				_panel.removeChild(sew);
+				delete _skill_set4edit[skill_id];
+				
+				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			}
 		}
 		
-		public function readFileContent(file:File):String{
+		public function showSkillStudyWindow():void{
+			if(null == _skill_study_window){
+				_skill_study_window = new SkillStudyWindow();
+				
+				var offset_x:Number = 243;
+				var offset_y:Number = 312;
+				_skill_study_window.x = offset_x;
+				_skill_study_window.y = offset_y;
+			}
+			
+			if(null == _skill_study_window.parent){
+				_panel.addChild(_skill_study_window);
+			}
+		}
+		
+		public function getSkillConfig(skill_id:uint):SkillConfig{
+			return _skill_set[skill_id];
+		}
+		
+		public function isSkillInEdit(skill_id:uint):Boolean{
+			return null != _skill_set4edit[skill_id];
+		}
+		
+		public function isSkillInStudy(skill_id:uint):Boolean{
+			return null != _skill_set4study[skill_id];
+		}
+		
+		public function cleanStudySkill():void{
+			if(0 < _skill_set4study.length){
+				_skill_set4study.length = 0;
+				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			}
+		}
+		
+		private function readFileContent(file:File):String{
 			var fs:FileStream = new FileStream();
 			fs.open(file, FileMode.READ);
 			var content:String = fs.readUTFBytes(fs.bytesAvailable);
@@ -109,7 +193,7 @@ package{
 			return content;
 		}
 		
-		public function writeFileContent(file_path:String, content:String):void{
+		private function writeFileContent(file_path:String, content:String):void{
 			var file:File = new File(file_path);
 			var fs:FileStream = new FileStream();
 			fs.open(file, FileMode.WRITE);
@@ -117,12 +201,28 @@ package{
 			fs.close();
 		}
 		
-		public function saveSkillConfig(skill_config:SkillConfig):void{
+		public function saveSkill(skill_config:SkillConfig):void{
 			if(null == _skill_set[skill_config.id]){
 				skill_config.id = _max_skill_id += 10;
 			}
 			_skill_set[skill_config.id] = skill_config;
 			writeFileContent(_skill_configs_dir.nativePath + "\\" + skill_config.id, encodeJSON(skill_config));
+			
+			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+		}
+		
+		public function studySkill(skill_config:SkillConfig):void{
+			if(null  == _skill_set4study[skill_config.id]){
+				_skill_set4study[skill_config.id] = skill_config;	
+			}else{
+				delete _skill_set4study[skill_config.id];
+			}
+			
+			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			
+			if(null == _skill_study_window || null == _skill_study_window.parent){
+				this.showSkillStudyWindow();
+			}
 		}
 		
 		public function encodeJSON(value:*):String{
@@ -139,7 +239,7 @@ package{
 				result.push(skill_config);
 			}
 			
-			result.sort(function(fst:Object, snd:Object):int{
+			result.sort(function(fst:SkillConfig, snd:SkillConfig):int{
 				if(fst.id >  snd.id){
 					return 1;
 				}
@@ -147,6 +247,88 @@ package{
 			});
 			
 			return result;
+		}
+		
+		public function get study_arr():Array{
+			var result:Array = [];
+			for each (var skill_config:SkillConfig in _skill_set4study) {
+				result.push(skill_config);
+			}
+			
+			result.sort(function(fst:SkillConfig, snd:SkillConfig):int{
+				if(fst.id >  snd.id){
+					return 1;
+				}
+				return -1;
+			});
+			
+			return result;
+		}
+		
+		private const _drag_map:Dictionary = new Dictionary();
+		public function enableDrag(target:VisualContainer, dd:DragData):void{
+			if(null != _drag_map[target]){
+				return;
+			}
+			
+			_drag_map[target] = dd;
+			target.addEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);
+		}
+		
+		public function disableDrag(target:VisualContainer):void{
+			if(null  == _drag_map[target]){
+				return;
+			}
+			
+			delete _drag_map[target];
+			target.removeEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);
+		}
+		
+		private function onMouseDown(event:MouseEvent):void{
+			if(event.target != event.currentTarget){
+				return;
+			}
+			var target:VisualObject = event.target as VisualObject;
+			target.addEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+			target.addEventListener(MouseEvent.MOUSE_UP, onMouseUp);
+		}
+		
+		private function onMouseMove(event:MouseEvent):void{
+			if(event.target != event.currentTarget){
+				return;
+			}
+			var target:VisualObject = event.target as VisualObject;
+			target.removeEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+			
+			var dd:DragData = _drag_map[target] as DragData;
+			switch(dd.m){
+				case 1:{
+					target.startDrag();
+					break;
+				}
+				case 2:{
+					target.startDrag();
+					break;
+				}
+				case 3:{
+					target.startDrag();
+					break;
+				}
+				default:{
+					break;
+				}
+			}
+		}
+		
+		private function onMouseUp(event:MouseEvent):void{
+			if(event.target != event.currentTarget){
+				return;
+			}
+			var target:VisualObject = event.target as VisualObject;
+			target.removeEventListener(MouseEvent.MOUSE_UP, onMouseUp);
+			target.removeEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+			
+			target.stopDrag();
 		}
 	}
 }

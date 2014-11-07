@@ -1,11 +1,12 @@
 package{
-	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageQuality;
 	import flash.display.StageScaleMode;
 	
-	[SWF(width="768", height="513")]
-	public class eve_simulator extends Sprite{
+	import es.ui.VisualLayer;
+	
+	[SWF(width="1024", height="595")]
+	public class eve_simulator extends VisualLayer{
 		public function eve_simulator(){
 			this.stage.align = StageAlign.LEFT;
 			this.stage.quality = StageQuality.BEST;
