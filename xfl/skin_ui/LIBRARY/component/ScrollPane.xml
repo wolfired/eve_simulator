@@ -1,8 +1,8 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/ScrollPane" itemID="44d8fbfb-000005da" linkageExportForAS="true" linkageClassName="fl.containers.ScrollPane" lastModified="1292423118" lastUniqueIdentifier="8" tooltip="ScrollPane" customIconID="7" actionscriptClass="fl.containers.ScrollPane" livePreviewScmHRef="haf0bx0luk16.swf" livePreviewScmSourceFilename="ScrollPane.swf" persistLivePreview11="true" livePreview11ScmHRef="haf0bx0luk17.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxmuu6aylu7..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/ScrollPane" itemID="44d8fbfb-000005da" linkageExportForAS="true" linkageClassName="fl.containers.ScrollPane" lastModified="1415359967" lastUniqueIdentifier="8" tooltip="ScrollPane" customIconID="7" actionscriptClass="fl.containers.ScrollPane" livePreviewScmHRef="haf0bx0luk16.swf" livePreviewScmSourceFilename="ScrollPane.swf" persistLivePreview11="true" livePreview11ScmHRef="haf0bx0luk17.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxmuu6aylu7..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="ScrollPane" currentFrame="1">
       <layers>
-        <DOMLayer name="assets" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="assets" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
@@ -132,7 +132,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='4.7.8'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

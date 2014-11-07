@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Slider" itemID="44b670ee-000000f8" linkageExportForAS="true" linkageClassName="fl.controls.Slider" lastModified="1292423118" lastUniqueIdentifier="19" tooltip="Slider" customIconID="0" actionscriptClass="fl.controls.Slider" livePreviewScmHRef="haf16x0luk.swf" livePreviewScmSourceFilename="Slider.swf" persistLivePreview11="true" livePreview11ScmHRef="haf16x0luk18.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxn0pnayluf..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Slider" itemID="44b670ee-000000f8" linkageExportForAS="true" linkageClassName="fl.controls.Slider" lastModified="1415326730" lastUniqueIdentifier="19" tooltip="Slider" customIconID="0" actionscriptClass="fl.controls.Slider" livePreviewScmHRef="haf16x0luk.swf" livePreviewScmSourceFilename="Slider.swf" persistLivePreview11="true" livePreview11ScmHRef="haf16x0luk18.swf" livePreview11ScmSourceFilename="C:\Users\jkamerer\AppData\Local\Adobe\Flash CS5.5\en_US\Configuration\TMPxn0pnayluf..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="Slider" currentFrame="1">
       <layers>
@@ -146,7 +146,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.16.18'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

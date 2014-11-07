@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/TextInput" itemID="44b159e1-000000fd" linkageExportForAS="true" linkageClassName="fl.controls.TextInput" lastModified="1292423118" lastUniqueIdentifier="11" tooltip="TextInput" customIconID="0" actionscriptClass="fl.controls.TextInput" livePreviewScmHRef="haf3sx0luk.swf" livePreviewScmSourceFilename="TextInput.swf" persistLivePreview11="true" livePreview11ScmHRef="5gja5e3brl.swf" livePreview11ScmSourceFilename="C:\Users\zelda\AppData\Local\Adobe\Flash CS6\zh_CN\Configuration\TMP5fi4xe3bq9..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/TextInput" itemID="44b159e1-000000fd" linkageExportForAS="true" linkageClassName="fl.controls.TextInput" lastModified="1415326730" lastUniqueIdentifier="11" tooltip="TextInput" customIconID="0" actionscriptClass="fl.controls.TextInput" livePreviewScmHRef="haf3sx0luk.swf" livePreviewScmSourceFilename="TextInput.swf" persistLivePreview11="true" livePreview11ScmHRef="5gja5e3brl.swf" livePreview11ScmSourceFilename="C:\Users\zelda\AppData\Local\Adobe\Flash CS6\zh_CN\Configuration\TMP5fi4xe3bq9..swf" editFrameIndex="2" requiredMinimumPlayerVersion="9" requiredMinimumASVersion="3" parametersAreLocked="true">
   <timeline>
     <DOMTimeline name="TextInput" currentFrame="1">
       <layers>
@@ -135,7 +135,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875" tx="10" ty="10"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.15.34.8'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

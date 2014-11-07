@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/CellRenderer" itemID="44d7bb1d-000000ed" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.listClasses.CellRenderer" lastModified="1292423118" lastUniqueIdentifier="14">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/CellRenderer" itemID="545c2baf-000003b7" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.listClasses.CellRenderer" lastModified="1292423118" lastUniqueIdentifier="14">
   <timeline>
     <DOMTimeline name="CellRenderer" currentFrame="1">
       <layers>
@@ -237,7 +237,7 @@
                   <matrix>
                     <Matrix tx="86.05" ty="30"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.15.35.15.14'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

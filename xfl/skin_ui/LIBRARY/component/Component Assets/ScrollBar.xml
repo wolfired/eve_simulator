@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/ScrollBar" itemID="45365ac7-000002ef" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.ScrollBar" lastModified="1292423118" lastUniqueIdentifier="60">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/ScrollBar" itemID="545c2baf-000003c2" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="fl.controls.ScrollBar" lastModified="1292423118" lastUniqueIdentifier="60">
   <timeline>
     <DOMTimeline name="ScrollBar" currentFrame="1">
       <layers>
@@ -289,7 +289,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath=''>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.15.35.16.60'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

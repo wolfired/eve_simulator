@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/CellRendererSkins/CellRenderer_upSkin" itemID="453f806e-000004da" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="CellRenderer_upSkin" scaleGridLeft="1" scaleGridRight="151" scaleGridTop="1" scaleGridBottom="21" lastModified="1169163238">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="component/Component Assets/CellRendererSkins/CellRenderer_upSkin" itemID="545c2baf-000003c0" linkageExportForAS="true" linkageExportInFirstFrame="false" linkageClassName="CellRenderer_upSkin" scaleGridLeft="1" scaleGridRight="151" scaleGridTop="1" scaleGridBottom="21" lastModified="1169163238">
   <timeline>
     <DOMTimeline name="CellRenderer_upSkin">
       <layers>
@@ -26,9 +26,9 @@
                     <Edge fillStyle0="2" fillStyle1="1" edges="!20 415|0 415"/>
                     <Edge fillStyle0="2" edges="!0 415|0 440!0 440|3040 440!3040 440|3040 415"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!3040 415|3020 415"/>
-                    <Edge fillStyle1="1" edges="!3020 415|3020 20"/>
-                    <Edge fillStyle0="2" fillStyle1="1" edges="!3020 20|3040 20"/>
-                    <Edge fillStyle1="1" edges="!3040 20|3040 415"/>
+                    <Edge fillStyle0="1" edges="!3020 20|3020 415"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!3040 20|3020 20"/>
+                    <Edge fillStyle0="1" edges="!3040 415|3040 20"/>
                     <Edge fillStyle0="2" edges="!3040 20|3040 0!3040 0|0 0!0 0|0 20"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!0 20|20 20"/>
                     <Edge fillStyle0="2" edges="!20 20|3020 20"/>

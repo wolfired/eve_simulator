@@ -47,12 +47,12 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" fillStyle1="3" edges="!397.5 220|417.5 220"/>
-                    <Edge fillStyle1="3" edges="!417.5 220|418 220!418 220|418 240!418 240|-0.5 240!-0.5 240|-0.5 220"/>
-                    <Edge fillStyle1="2" edges="!-0.5 220|-0.5 20"/>
-                    <Edge fillStyle1="1" edges="!-0.5 20|-0.5 0!-0.5 0|338 0!338 0[#1A1.9 0 417.5 80!417.5 80|417.5 220"/>
                     <Edge fillStyle0="2" fillStyle1="1" edges="!397.5 220|397.5 80!397.5 80[#18D.97 #24.25 366 24!366 24|341 20!341 20|-0.5 20"/>
+                    <Edge fillStyle1="1" edges="!-0.5 20|-0.5 0!-0.5 0|338 0!338 0[#1A1.9 0 417.5 80!417.5 80|417.5 220"/>
+                    <Edge fillStyle1="3" edges="!417.5 220|418 220!418 220|418 240!418 240|-0.5 240!-0.5 240|-0.5 220"/>
                     <Edge fillStyle0="2" fillStyle1="3" edges="!-0.5 220|397.5 220"/>
+                    <Edge fillStyle0="1" fillStyle1="3" edges="!397.5 220|417.5 220"/>
+                    <Edge fillStyle1="2" edges="!-0.5 220|-0.5 20"/>
                   </edges>
                 </DOMShape>
               </elements>

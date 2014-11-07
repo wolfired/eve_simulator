@@ -1,7 +1,31 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillOutlineWindow" itemID="544de278-000001d5" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillOutlineWindow" lastModified="1415367829" lastUniqueIdentifier="30" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillStudyWindow" itemID="545c8a18-0000083d" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillStudyWindow" lastModified="1415367734" lastUniqueIdentifier="11" isSpriteSubclass="true">
   <timeline>
-    <DOMTimeline name="Skin_SkillOutlineWindow">
+    <DOMTimeline name="Skin_SkillStudyWindow">
       <layers>
+        <DOMLayer name="图层 7" color="#4F80FF" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="_lab_title" fontRenderingMode="device" width="298.7" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.594589233398438" tx="142.2" ty="4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>技能模拟</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="图层 6" color="#808080">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -9,18 +33,32 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 5" color="#4FFFFF" locked="true">
+        <DOMLayer name="图层 5" color="#4FFFFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="图层 4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="图层 3" color="#FF800A" locked="true" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_new" centerPoint3DX="61" centerPoint3DY="582" uniqueID="6">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_clean" centerPoint3DX="36" centerPoint3DY="270" uniqueID="9">
                   <matrix>
-                    <Matrix a="1.17999267578125" tx="2" ty="571"/>
+                    <Matrix a="0.67999267578125" tx="2" ty="259"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.6'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.9'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="emphasized">
@@ -30,7 +68,7 @@
       <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
    <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="新建" type="String"/>
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="清空" type="String"/>
    </property>
    <property id="labelPlacement">
       <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
@@ -46,63 +84,14 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="component/ComboBox" name="_cb_type" centerPoint3DX="66" centerPoint3DY="32" uniqueID="7">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_sim" centerPoint3DX="426" centerPoint3DY="270" uniqueID="10">
                   <matrix>
-                    <Matrix a="1.28009033203125" d="0.999954223632813" tx="2" ty="21"/>
+                    <Matrix a="0.67999267578125" tx="392" ty="259"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.7'>
-</component>
-]]></dataBindingXML>
-                  <parametersAsXML><![CDATA[   <property id="dataProvider">
-      <Inspectable name="dataProvider" variable="dataProvider" category="" verbose="0" defaultValue="fl.data.DataProvider, fl.data.SimpleCollectionItem, item, 0, 0" type="Collection"/>
-   </property>
-   <property id="editable">
-      <Inspectable name="editable" variable="editable" category="" verbose="0" defaultValue="false" type="Boolean"/>
-   </property>
-   <property id="enabled">
-      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-   <property id="prompt">
-      <Inspectable name="prompt" variable="prompt" category="" verbose="0" defaultValue="" type="String"/>
-   </property>
-   <property id="restrict">
-      <Inspectable name="restrict" variable="restrict" category="" verbose="1" defaultValue="" type="String"/>
-   </property>
-   <property id="rowCount">
-      <Inspectable name="rowCount" variable="rowCount" category="" verbose="0" defaultValue="23" type="Number"/>
-   </property>
-   <property id="visible">
-      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
-   </property>
-]]></parametersAsXML>
-                </DOMComponentInstance>
-                <DOMDynamicText name="_lab_title" fontRenderingMode="device" width="300.4" height="13" isSelectable="false">
-                  <matrix>
-                    <Matrix a="0.594589233398438" tx="31.2" ty="4"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>技能总揽</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                  <filters>
-                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
-                  </filters>
-                </DOMDynamicText>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_study" centerPoint3DX="181" centerPoint3DY="582" uniqueID="25">
-                  <matrix>
-                    <Matrix a="1.17999267578125" tx="122" ty="571"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50" y="11"/>
-                  </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.25'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.10'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="emphasized">
@@ -112,7 +101,40 @@
       <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
    </property>
    <property id="label">
-      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="学习" type="String"/>
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="模拟" type="String"/>
+   </property>
+   <property id="labelPlacement">
+      <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
+   </property>
+   <property id="selected">
+      <Inspectable name="selected" variable="selected" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="toggle">
+      <Inspectable name="toggle" variable="toggle" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_close" centerPoint3DX="106" centerPoint3DY="270" uniqueID="11">
+                  <matrix>
+                    <Matrix a="0.67999267578125" tx="72" ty="259"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="11"/>
+                  </transformationPoint>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.11'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="emphasized">
+      <Inspectable name="emphasized" variable="emphasized" category="" verbose="0" defaultValue="false" type="Boolean"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="label">
+      <Inspectable name="label" variable="label" category="" verbose="0" defaultValue="关闭" type="String"/>
    </property>
    <property id="labelPlacement">
       <Inspectable name="labelPlacement" variable="labelPlacement" category="" verbose="0" defaultValue="right" enumeration="left,right,top,bottom" type="List"/>
@@ -132,18 +154,18 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 4" color="#FF4FFF" locked="true" current="true" isSelected="true">
+        <DOMLayer name="图层 2" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" selected="true" centerPoint3DX="121" centerPoint3DY="305.05" uniqueID="29">
+                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="231" centerPoint3DY="127.5" uniqueID="7">
                   <matrix>
-                    <Matrix a="2.37998962402344" d="5.22006225585938" tx="2" ty="44"/>
+                    <Matrix a="4.580078125" d="2.1099853515625" tx="2" ty="22"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="50"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.29'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.7'>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -182,25 +204,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 3" color="#FF800A">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="图层 2" color="#9933CC">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
         <DOMLayer name="图层 1" color="#4FFF4F" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="241" objectHeight="594" x="-434.95" y="-104" selected="true" lockFlag="true">
+                <DOMRectangleObject objectWidth="462" objectHeight="282" x="-434.95" y="-104" lockFlag="true">
                   <matrix>
                     <Matrix tx="434.95" ty="104"/>
                   </matrix>
