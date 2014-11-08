@@ -88,17 +88,17 @@ package es.ui{
 			
 			while(tmp_arr.length != _spr.numChildren){
 				if(tmp_arr.length > _spr.numChildren){
-					_item_arr.push(_spr.addChild(new SkillItem()));
+					_item_arr.push(_spr.addChild(new SkillItem4Outline()));
 				}else if(tmp_arr.length < _spr.numChildren){
 					_spr.removeChild(_item_arr.pop());
 				}
 			}
 			
-			var skill_item:SkillItem;
+			var skill_item:SkillItem4Outline;
 			var offset_x:Number = 2.0;
 			var offset_y:Number = 2.0;
 			for (var i:int = 0; i < tmp_arr.length; ++i) {
-				skill_item = _item_arr[i] as SkillItem;
+				skill_item = _item_arr[i] as SkillItem4Outline;
 				skill_item.skill_cfg = tmp_arr[i] as SkillConfig;
 				
 				skill_item.x = offset_x + i % 1 * 210;

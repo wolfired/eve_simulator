@@ -1,0 +1,187 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Study" itemID="545d7c35-0000026c" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Study" lastModified="1415415883" lastUniqueIdentifier="2" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Skin_SkillItem4Study">
+      <layers>
+        <DOMLayer name="图层 2" color="#9933CC" locked="true" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="_txt_name" fontRenderingMode="device" width="176" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMDynamicText name="_txt_edit" fontRenderingMode="device" width="13" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="184" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>E</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMDynamicText name="_txt_study" fontRenderingMode="device" width="13" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="203" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>S</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMComponentInstance libraryItemName="component/Slider" name="_sd_study_level" centerPoint3DX="140" centerPoint3DY="21.5" uniqueID="2">
+                  <matrix>
+                    <Matrix tx="100" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1.5"/>
+                  </transformationPoint>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Study' oldCopiedComponentPath='2'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="horizontal" enumeration="horizontal,vertical" type="List"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="liveDragging">
+      <Inspectable name="liveDragging" variable="liveDragging" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="maximum">
+      <Inspectable name="maximum" variable="maximum" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="minimum">
+      <Inspectable name="minimum" variable="minimum" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="snapInterval">
+      <Inspectable name="snapInterval" variable="snapInterval" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="tickInterval">
+      <Inspectable name="tickInterval" variable="tickInterval" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMDynamicText name="_txt_level" fontRenderingMode="device" width="88" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="22"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="图层 1" color="#4FFF4F" locked="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="180" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="434.95" ty="104"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="17" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="616.95" ty="104"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="17" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="635.95" ty="104"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="92" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="434.95" ty="124"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

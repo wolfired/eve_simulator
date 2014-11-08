@@ -6,6 +6,7 @@ package es.ui{
 	
 	import es.ds.DragData;
 	import es.ds.SkillConfig;
+	import es.evt.GlobalEvent;
 	
 	import fl.containers.ScrollPane;
 	import fl.controls.Button;
@@ -63,6 +64,7 @@ package es.ui{
 			__btn_cancel.addEventListener(MouseEvent.CLICK, onCancel);
 			__btn_save.addEventListener(MouseEvent.CLICK, onSave);
 			
+			Global.ins.addEventListener(GlobalEvent.EVT_SKILL_SET_UPDATE, onSkillSetUpdate);
 			Global.ins.enableDrag(this, new DragData());
 		}
 		
@@ -74,12 +76,56 @@ package es.ui{
 			__btn_cancel.removeEventListener(MouseEvent.CLICK, onCancel);
 			__btn_save.removeEventListener(MouseEvent.CLICK, onSave);
 			
+			Global.ins.removeEventListener(GlobalEvent.EVT_SKILL_SET_UPDATE, onSkillSetUpdate);
 			Global.ins.disableDrag(this);
 		}
 		
 		public function set skill_cfg(value:SkillConfig):void{
 			_skill_cfg = value;
 			
+			this.showInfo();
+		}
+		
+		public function set editable(value:Boolean):void{
+			__txt_name.mouseEnabled = value;
+			__sd_level.mouseEnabled = __sd_times.mouseEnabled = value;
+			__cb_type.mouseEnabled = __cb_attr_major.mouseEnabled = __cb_attr_minor.mouseEnabled = value;
+			
+			__btn_save.visible = value;
+		}
+		
+		
+		private function onSkillSetUpdate(event:GlobalEvent):void{
+			this.showInfo();
+		}
+		
+		private function onTypeChange(event:Event):void{
+		}
+		
+		private function onLevelChange(event:SliderEvent):void{
+			__txt_level.text = "Lv." + __sd_level.value;
+		}
+		
+		private function onTimesChange(event:SliderEvent):void{
+			__txt_times.text = "x" + __sd_times.value;
+		}
+		
+		private function onCancel(event:MouseEvent):void{
+			Global.ins.hideSkillEditWindow(_skill_cfg.id);
+		}
+		
+		private function onSave(event:MouseEvent):void{
+			_skill_cfg.type = __cb_type.selectedItem.id;
+			_skill_cfg.name = __txt_name.text;
+			_skill_cfg.level = __sd_level.value;
+			_skill_cfg.times = __sd_times.value;
+			_skill_cfg.attr_major = __cb_attr_major.selectedIndex;
+			_skill_cfg.attr_minor = __cb_attr_minor.selectedIndex;
+			_skill_cfg.desc = __txt_desc.text;
+			Global.ins.saveSkill(_skill_cfg);
+		}
+		
+		private function showInfo():void{
 			__txt_id.text = _skill_cfg.id.toString();
 			
 			__cb_type.selectedIndex = _skill_cfg.type;
@@ -98,42 +144,7 @@ package es.ui{
 			__txt_desc.text = _skill_cfg.desc;
 		}
 		
-		public function set editable(value:Boolean):void{
-			__txt_name.mouseEnabled = value;
-			__sd_level.mouseEnabled = __sd_times.mouseEnabled = value;
-			__cb_type.mouseEnabled = __cb_attr_major.mouseEnabled = __cb_attr_minor.mouseEnabled = value;
-			
-			__btn_save.visible = value;
-		}
-		
-		private function onTypeChange(event:Event):void{
-		}
-		
-		private function onLevelChange(event:SliderEvent):void{
-			__txt_level.text = "Lv." + __sd_level.value;
-		}
-		
-		private function onTimesChange(event:SliderEvent):void{
-			__txt_times.text = "x" + __sd_times.value;
-		}
-		
-		private function onCancel(event:MouseEvent):void{
-			Global.ins.hideSkillEditWindow(_skill_cfg.id);
-			_skill_cfg = null;
-		}
-		
-		private function onSave(event:MouseEvent):void{
-			_skill_cfg.type = __cb_type.selectedItem.id;
-			_skill_cfg.name = __txt_name.text;
-			_skill_cfg.level = __sd_level.value;
-			_skill_cfg.times = __sd_times.value;
-			_skill_cfg.attr_major = __cb_attr_major.selectedIndex;
-			_skill_cfg.attr_minor = __cb_attr_minor.selectedIndex;
-			_skill_cfg.desc = __txt_desc.text;
-			Global.ins.saveSkill(_skill_cfg);
-		}
-		
-		private function showSkills():void{
+		private function showDepends():void{
 			var tmp_arr:Array = [];
 			for (var skill_id_str:String in _skill_cfg.depend) {
 				tmp_arr.push(Global.ins.getSkillConfig(uint(skill_id_str)));
@@ -147,17 +158,17 @@ package es.ui{
 			
 			while(tmp_arr.length != _spr.numChildren){
 				if(tmp_arr.length > _spr.numChildren){
-					_item_arr.push(_spr.addChild(new SkillItem()));
+					_item_arr.push(_spr.addChild(new SkillItem4Outline()));
 				}else if(tmp_arr.length < _spr.numChildren){
 					_spr.removeChild(_item_arr.pop());
 				}
 			}
 			
-			var skill_item:SkillItem;
+			var skill_item:SkillItem4Outline;
 			var offset_x:Number = 2.0;
 			var offset_y:Number = 2.0;
 			for (var i:int = 0; i < tmp_arr.length; ++i) {
-				skill_item = _item_arr[i] as SkillItem;
+				skill_item = _item_arr[i] as SkillItem4Outline;
 				skill_item.skill_cfg = tmp_arr[i] as SkillConfig;
 				
 				skill_item.x = offset_x + i % 2 * 220;

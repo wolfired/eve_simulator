@@ -216,10 +216,12 @@
           <Include href="component/TextInput.xml" itemID="44b159e1-000000fd" lastModified="1415326730"/>
           <Include href="component/TileList.xml" itemID="4517534e-00000034" lastModified="1415326730"/>
           <Include href="component/UIScrollBar.xml" itemID="44aaa686-00000064" lastModified="1415326730"/>
-          <Include href="ui/Skin_SkillEditWindow.xml" itemID="544de29e-000001d9" lastModified="1415364493"/>
-          <Include href="ui/Skin_SkillItem.xml" itemID="544f25b4-00000416" lastModified="1415361857"/>
+          <Include href="ui/Skin_SkillEditWindow.xml" itemID="544de29e-000001d9" lastModified="1415415637"/>
+          <Include href="ui/Skin_SkillItem4Edit.xml" itemID="545d7c2b-00000266" lastModified="1415412803"/>
+          <Include href="ui/Skin_SkillItem4Outline.xml" itemID="545d7c0f-00000260" lastModified="1415413615"/>
+          <Include href="ui/Skin_SkillItem4Study.xml" itemID="545d7c35-0000026c" lastModified="1415415883"/>
           <Include href="ui/Skin_SkillOutlineWindow.xml" itemID="544de278-000001d5" lastModified="1415367829"/>
-          <Include href="ui/Skin_SkillStudyWindow.xml" itemID="545c8a18-0000083d" lastModified="1415367734"/>
+          <Include href="ui/Skin_SkillStudyWindow.xml" itemID="545c8a18-0000083d" lastModified="1415426654"/>
      </symbols>
      <timelines>
           <DOMTimeline name="场景 1">
@@ -228,7 +230,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillOutlineWindow" selected="true" centerPoint3DX="-89" centerPoint3DY="123.35">
+                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillOutlineWindow" centerPoint3DX="-89" centerPoint3DY="123.35">
                                              <matrix>
                                                   <Matrix tx="-162" ty="-39.65"/>
                                              </matrix>
@@ -261,6 +263,17 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="101251" publishTime="1415426682"/>
+          <PublishItem publishSize="101252" publishTime="1415418326"/>
+          <PublishItem publishSize="101240" publishTime="1415417555"/>
+          <PublishItem publishSize="101233" publishTime="1415416271"/>
+          <PublishItem publishSize="101240" publishTime="1415416020"/>
+          <PublishItem publishSize="101237" publishTime="1415415699"/>
+          <PublishItem publishSize="101110" publishTime="1415415579"/>
+          <PublishItem publishSize="101110" publishTime="1415415559"/>
+          <PublishItem publishSize="100410" publishTime="1415415027"/>
+          <PublishItem publishSize="100395" publishTime="1415414203"/>
+          <PublishItem publishSize="100347" publishTime="1415413890"/>
           <PublishItem publishSize="99743" publishTime="1415367835"/>
           <PublishItem publishSize="99742" publishTime="1415367740"/>
           <PublishItem publishSize="99783" publishTime="1415364567"/>
@@ -270,17 +283,6 @@
           <PublishItem publishSize="99674" publishTime="1415362531"/>
           <PublishItem publishSize="99674" publishTime="1415362522"/>
           <PublishItem publishSize="99520" publishTime="1415361725"/>
-          <PublishItem publishSize="99529" publishTime="1415359981"/>
-          <PublishItem publishSize="99530" publishTime="1415359850"/>
-          <PublishItem publishSize="99530" publishTime="1415359804"/>
-          <PublishItem publishSize="99529" publishTime="1415359648"/>
-          <PublishItem publishSize="99530" publishTime="1415354651"/>
-          <PublishItem publishSize="99513" publishTime="1415354537"/>
-          <PublishItem publishSize="99512" publishTime="1415354484"/>
-          <PublishItem publishSize="99361" publishTime="1415354291"/>
-          <PublishItem publishSize="99363" publishTime="1415354243"/>
-          <PublishItem publishSize="99363" publishTime="1415354174"/>
-          <PublishItem publishSize="99363" publishTime="1415354018"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="5gjale3brl.swc">

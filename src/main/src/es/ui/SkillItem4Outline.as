@@ -4,15 +4,15 @@ package es.ui{
 	
 	import es.ds.SkillConfig;
 	
-	import skin.Skin_SkillItem;
+	import skin.Skin_SkillItem4Outline;
 	
-	public class SkillItem extends VisualContainer {
+	public class SkillItem4Outline extends VisualObject {
 		
-		private function get __txt_edit() : TextField { return _skin["_txt_edit"]; }
-		private function get __txt_name() : TextField { return _skin["_txt_name"]; }
-		private function get __txt_study() : TextField { return _skin["_txt_study"]; }
+		protected function get __txt_edit() : TextField { return _skin["_txt_edit"]; }
+		protected function get __txt_name() : TextField { return _skin["_txt_name"]; }
+		protected function get __txt_study() : TextField { return _skin["_txt_study"]; }
 		
-		private var _skill_cfg:SkillConfig;
+		protected var _skill_cfg:SkillConfig;
 		public function get skill_cfg():SkillConfig { return _skill_cfg; }
 		
 		public function set skill_cfg(value:SkillConfig):void{
@@ -24,9 +24,9 @@ package es.ui{
 			__txt_study.textColor = Global.ins.isSkillInStudy(_skill_cfg.id) ? 0xFF0000 : 0x000000;
 		}
 		
-		public function SkillItem(skin_clazz:Class = null){
+		public function SkillItem4Outline(skin_clazz:Class = null){
 			if(null == skin_clazz){
-				skin_clazz = Skin_SkillItem;
+				skin_clazz = Skin_SkillItem4Outline;
 			}
 			super(skin_clazz);
 		}
@@ -50,7 +50,9 @@ package es.ui{
 		}
 		
 		private function onStudy(event:MouseEvent):void{
-			Global.ins.studySkill(_skill_cfg);
+			if(!_skill_cfg.isMaxLevel()){
+				Global.ins.studySkill(_skill_cfg);
+			}
 		}
 	}
 }

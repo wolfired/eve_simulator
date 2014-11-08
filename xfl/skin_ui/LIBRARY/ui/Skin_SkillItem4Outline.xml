@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem" itemID="544f25b4-00000416" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem" lastModified="1415361857" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Outline" itemID="545d7c0f-00000260" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Outline" lastModified="1415413615" isSpriteSubclass="true">
   <timeline>
-    <DOMTimeline name="Skin_SkillItem">
+    <DOMTimeline name="Skin_SkillItem4Outline">
       <layers>
         <DOMLayer name="图层 2" color="#9933CC" locked="true" current="true" isSelected="true">
           <frames>

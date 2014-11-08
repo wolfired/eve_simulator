@@ -204,11 +204,19 @@ package{
 		public function saveSkill(skill_config:SkillConfig):void{
 			if(null == _skill_set[skill_config.id]){
 				skill_config.id = _max_skill_id += 10;
+				
+				_skill_set4edit[skill_config.id] = _skill_set4edit[0];
+				delete _skill_set4edit[0];
 			}
 			_skill_set[skill_config.id] = skill_config;
 			writeFileContent(_skill_configs_dir.nativePath + "\\" + skill_config.id, encodeJSON(skill_config));
 			
-			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			
+			if(this.isSkillInStudy(skill_config.id) && skill_config.isMaxLevel()){
+				this.studySkill(skill_config);
+			}else{
+				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			}
 		}
 		
 		public function studySkill(skill_config:SkillConfig):void{
