@@ -22,7 +22,7 @@ package es.ui{
 		override public function set skill_cfg(value:SkillConfig):void{
 			super.skill_cfg = value;
 			
-			__sd_study_level.minimum = _skill_cfg.level + 1;
+			__sd_study_level.minimum = _skill_cfg.level;
 			this.setLevel();
 		}
 		

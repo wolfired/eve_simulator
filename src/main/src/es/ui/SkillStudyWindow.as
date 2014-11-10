@@ -115,7 +115,7 @@ package es.ui{
 		}
 		
 		private function onSim(event:MouseEvent):void{
-			var t:uint = 0;
+			var t:Number = 0.0;
 			for each (var skill_item:SkillItem4Study in _item_arr) {
 				t += skill_item.skill_cfg.time(skill_item.study_level,
 					(_map[skill_item.skill_cfg.attr_major] as Slider).value,
@@ -125,10 +125,12 @@ package es.ui{
 			var d:uint = t / 24 / 60;
 			var h:uint = t % (24 * 60) / 60;
 			var m:uint = t % 60;
+			var s:uint = Math.ceil((t - d * 24 * 60 - h * 60 - m) * 60);
 			
 			var str:String = 0 == d ? "" : d + "天";
 			str += 0 == h ? "" : h + "小时";
 			str += 0 == m ? "" : m + "分钟";
+			str += 0 == s ? "" : s + "秒";
 			__txt_time.text = str;
 		}
 		

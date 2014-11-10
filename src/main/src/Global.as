@@ -129,7 +129,7 @@ package{
 				
 				var offset_x:Number = 243;
 				var offset_y:Number = 0;
-				sew.x = offset_x + OFFSET++ % 10 * 38;
+				sew.x = offset_x;// + OFFSET++ % 10 * 38;
 				sew.y = offset_y;
 				
 				_panel.addChild(sew);

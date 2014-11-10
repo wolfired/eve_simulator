@@ -426,7 +426,7 @@
                     <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
                   </filters>
                 </DOMDynamicText>
-                <DOMComponentInstance libraryItemName="component/Slider" name="_sd_level" selected="true" centerPoint3DX="97" centerPoint3DY="73.5" uniqueID="16">
+                <DOMComponentInstance libraryItemName="component/Slider" name="_sd_level" centerPoint3DX="97" centerPoint3DY="73.5" uniqueID="16">
                   <matrix>
                     <Matrix tx="57" ty="72"/>
                   </matrix>
