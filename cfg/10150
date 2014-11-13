@@ -1,1 +1,1 @@
-{"desc":"操作和发射鱼雷的技能。每升一级，鱼雷伤害提高5%。","attr_major":1,"depend":{},"id":10150,"type":1,"times":4,"attr_minor":3,"level":0,"name":"鱼雷概论"}
+{"name":"鱼雷概论","attr_minor":3,"desc":"操作和发射鱼雷的技能。每升一级，鱼雷伤害提高5%。","id":10150,"times":4,"attr_major":1,"depend":{"10200":3,"10050":4},"type":1,"level":0}

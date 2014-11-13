@@ -1,1 +1,1 @@
-{"id":10640,"attr_minor":3,"times":5,"name":"采掘者操作","type":4,"desc":"操作精英采矿驳船的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"采掘者操作","attr_minor":3,"desc":"操作精英采矿驳船的技能。","id":10640,"times":5,"attr_major":1,"depend":{"10680":4,"13010":5,"13740":5},"type":4,"level":0}

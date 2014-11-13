@@ -1,1 +1,1 @@
-{"id":11100,"attr_minor":3,"times":5,"name":"米玛塔尔战略巡洋舰操作","type":4,"desc":"操作米玛塔尔战略巡洋舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"米玛塔尔战略巡洋舰操作","attr_minor":3,"desc":"操作米玛塔尔战略巡洋舰的技能。","id":11100,"times":5,"attr_major":1,"depend":{"11070":5},"type":4,"level":0}

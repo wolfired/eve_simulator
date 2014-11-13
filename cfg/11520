@@ -1,1 +1,1 @@
-{"attr_minor":2,"times":2,"attr_major":4,"desc":"每升一级，护盾增效器的动能抗性提高5%","level":0,"depend":{},"id":11520,"type":8,"name":"动能护盾补偿"}
+{"name":"动能护盾补偿","attr_minor":2,"desc":"每升一级，护盾增效器的动能抗性提高5%","id":11520,"times":2,"attr_major":4,"depend":{"11540":4},"type":8,"level":0}

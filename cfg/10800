@@ -1,1 +1,1 @@
-{"id":10800,"attr_minor":3,"times":5,"name":"高级飞船操控学","type":4,"desc":"操控飞船的高级技能。每升一级，需要此技能的飞船的灵活性提升5%。","depend":{},"attr_major":1,"level":0}
+{"name":"高级飞船操控学","attr_minor":3,"desc":"操控飞船的高级技能。每升一级，需要此技能的飞船的灵活性提升5%。","id":10800,"times":5,"attr_major":1,"depend":{"10680":5},"type":4,"level":0}

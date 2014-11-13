@@ -1,1 +1,1 @@
-{"id":10360,"depend":{},"type":2,"attr_major":4,"times":5,"attr_minor":2,"desc":"有效建立诱导力场的技能。每升一级，激活装备所消耗的液态臭氧减少10%。","name":"诱导力场理论","level":0}
+{"name":"诱导力场理论","attr_minor":2,"desc":"有效建立诱导力场的技能。每升一级，激活装备所消耗的液态臭氧减少10%。","id":10360,"times":5,"attr_major":4,"depend":{"11310":5},"type":2,"level":0}

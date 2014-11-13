@@ -1,1 +1,1 @@
-{"name":"逆向工程原理","level":0,"id":11970,"times":4,"desc":"掌握对远古科技进行逆向工程的相关技术的技能。","attr_major":4,"type":10,"depend":{},"attr_minor":2}
+{"name":"逆向工程原理","attr_minor":2,"desc":"掌握对远古科技进行逆向工程的相关技术的技能。","id":11970,"times":4,"attr_major":4,"depend":{"12050":4,"11915":5,"12020":4},"type":10,"level":0}

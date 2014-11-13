@@ -1,1 +1,1 @@
-{"id":11150,"attr_minor":1,"times":6,"name":"运输舰操作","type":4,"desc":"操作运输舰级别工业舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"运输舰操作","attr_minor":1,"desc":"操作运输舰级别工业舰的技能。","id":11150,"times":6,"attr_major":3,"depend":{"10680":3,"13010":5},"type":4,"level":0}

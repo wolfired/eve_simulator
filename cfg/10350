@@ -1,1 +1,1 @@
-{"id":10350,"depend":{},"type":2,"attr_major":4,"times":5,"attr_minor":1,"desc":"使用微型跳跃引擎的技能。每升一级，激活时间减少5%。","name":"微型跳跃引擎操作","level":0}
+{"name":"微型跳跃引擎操作","attr_minor":1,"desc":"使用微型跳跃引擎的技能。每升一级，激活时间减少5%。","id":10350,"times":5,"attr_major":4,"depend":{"10250":4,"10370":2},"type":2,"level":0}

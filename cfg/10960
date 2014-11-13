@@ -1,1 +1,1 @@
-{"id":10960,"attr_minor":1,"times":4,"name":"勘探护卫舰","type":4,"desc":"操作勘探护卫舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"勘探护卫舰","attr_minor":1,"desc":"操作勘探护卫舰的技能。","id":10960,"times":4,"attr_major":3,"depend":{"10680":3,"13010":5,"11350":5},"type":4,"level":0}

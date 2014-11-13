@@ -1,1 +1,1 @@
-{"id":10910,"attr_minor":3,"times":5,"name":"加达里巡洋舰操作","type":4,"desc":"操作加达里巡洋舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"加达里巡洋舰操作","attr_minor":3,"desc":"操作加达里巡洋舰的技能。","id":10910,"times":5,"attr_major":1,"depend":{"10680":2,"10880":3},"type":4,"level":0}

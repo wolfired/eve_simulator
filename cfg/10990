@@ -1,1 +1,1 @@
-{"id":10990,"attr_minor":1,"times":10,"name":"掠夺舰操作","type":4,"desc":"操作掠夺舰级别战列舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"掠夺舰操作","attr_minor":1,"desc":"操作掠夺舰级别战列舰的技能。","id":10990,"times":10,"attr_major":3,"depend":{"10680":5,"11360":5,"11410":5},"type":4,"level":0}

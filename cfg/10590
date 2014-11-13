@@ -1,1 +1,1 @@
-{"id":10590,"attr_minor":3,"times":12,"name":"艾玛无畏舰操作","type":4,"desc":"操作艾玛无畏舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"艾玛无畏舰操作","attr_minor":3,"desc":"操作艾玛无畏舰的技能。","id":10590,"times":12,"attr_major":1,"depend":{"12800":1,"11120":3,"10610":3},"type":4,"level":0}

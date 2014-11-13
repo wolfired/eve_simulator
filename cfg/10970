@@ -1,1 +1,1 @@
-{"id":10970,"attr_minor":1,"times":5,"name":"拦截舰操作","type":4,"desc":"操作拦截舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"拦截舰操作","attr_minor":1,"desc":"操作拦截舰的技能。","id":10970,"times":5,"attr_major":3,"depend":{"10680":4,"10450":5,"12060":1},"type":4,"level":0}

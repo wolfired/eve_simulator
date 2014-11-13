@@ -1,1 +1,1 @@
-{"id":11180,"attr_minor":1,"times":8,"name":"指挥舰操作","type":4,"desc":"操作指挥舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"指挥舰操作","attr_minor":1,"desc":"操作指挥舰的技能。","id":11180,"times":8,"attr_major":3,"depend":{"12160":5,"12080":5,"12180":5,"10680":5,"12200":4,"12140":5},"type":4,"level":0}

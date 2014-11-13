@@ -1,1 +1,1 @@
-{"attr_major":2,"depend":{},"name":"外资关系学","attr_minor":5,"level":0,"id":11680,"times":2,"type":9,"desc":"与统合部商谈盟友费的技能。每升一级，降低盟友招集费用5%。"}
+{"name":"外资关系学","attr_minor":5,"desc":"与统合部商谈盟友费的技能。每升一级，降低盟友招集费用5%。","id":11680,"times":2,"attr_major":2,"depend":{"12470":3,"11650":2},"type":9,"level":0}

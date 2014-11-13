@@ -1,1 +1,1 @@
-{"id":10950,"attr_minor":1,"times":4,"name":"截击舰操作","type":4,"desc":"操作截击舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"截击舰操作","attr_minor":1,"desc":"操作截击舰的技能。","id":10950,"times":4,"attr_major":3,"depend":{"10680":3,"10270":5},"type":4,"level":0}

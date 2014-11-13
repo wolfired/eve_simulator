@@ -1,1 +1,1 @@
-{"id":10980,"attr_minor":3,"times":4,"name":"联合矿业工业舰操作","type":4,"desc":"操作联合矿业工业舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"联合矿业工业舰操作","attr_minor":3,"desc":"操作联合矿业工业舰的技能。","id":10980,"times":4,"attr_major":1,"depend":{"10680":3},"type":4,"level":0}

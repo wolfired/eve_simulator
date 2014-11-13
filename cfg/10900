@@ -1,1 +1,1 @@
-{"id":10900,"attr_minor":3,"times":12,"name":"加达里无畏舰操作","type":4,"desc":"操作加达里无畏舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"加达里无畏舰操作","attr_minor":3,"desc":"操作加达里无畏舰的技能。","id":10900,"times":12,"attr_major":1,"depend":{"10920":3,"12800":1,"11120":3},"type":4,"level":0}

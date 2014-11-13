@@ -1,1 +1,1 @@
-{"attr_minor":2,"times":3,"attr_major":4,"desc":"调整舰船护盾系统的技能。每升一级，护盾量提高5%。","level":0,"depend":{},"id":11550,"type":8,"name":"护盾管理"}
+{"name":"护盾管理","attr_minor":2,"desc":"调整舰船护盾系统的技能。每升一级，护盾量提高5%。","id":11550,"times":3,"attr_major":4,"depend":{"11400":3},"type":8,"level":0}

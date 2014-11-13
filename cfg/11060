@@ -1,1 +1,1 @@
-{"id":11060,"attr_minor":3,"times":12,"name":"米玛塔尔无畏舰操作","type":4,"desc":"操作米玛塔尔无畏舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"米玛塔尔无畏舰操作","attr_minor":3,"desc":"操作米玛塔尔无畏舰的技能。","id":11060,"times":12,"attr_major":1,"depend":{"11080":3,"12800":1,"11120":3},"type":4,"level":0}

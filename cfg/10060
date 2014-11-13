@@ -1,1 +1,1 @@
-{"attr_minor":3,"id":10060,"times":2,"type":1,"depend":{},"level":0,"attr_major":1,"name":"导弹发射效率","desc":"精通高速导弹发射的技能。每升一级，导弹发射器的发射速率提高3%。"}
+{"name":"导弹发射效率","attr_minor":3,"desc":"精通高速导弹发射的技能。每升一级，导弹发射器的发射速率提高3%。","id":10060,"times":2,"attr_major":1,"depend":{"10050":2},"type":1,"level":0}

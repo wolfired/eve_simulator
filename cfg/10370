@@ -1,1 +1,1 @@
-{"id":10370,"depend":{},"type":2,"attr_major":4,"times":1,"attr_minor":1,"desc":"管理跃迁引擎效率的技能。每升一级，启动跃迁的电容需求减少10%。","name":"跃迁引擎操控基础","level":0}
+{"name":"跃迁引擎操控基础","attr_minor":1,"desc":"管理跃迁引擎效率的技能。每升一级，启动跃迁的电容需求减少10%。","id":10370,"times":1,"attr_major":4,"depend":{"10250":1},"type":2,"level":0}

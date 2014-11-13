@@ -1,1 +1,1 @@
-{"name":"防御子系统技术","level":0,"id":11770,"times":5,"desc":"掌握高级防御子系统的相关制造技术的技能。","attr_major":4,"type":10,"depend":{},"attr_minor":2}
+{"name":"防御子系统技术","attr_minor":2,"desc":"掌握高级防御子系统的相关制造技术的技能。","id":11770,"times":5,"attr_major":4,"depend":{"11960":4,"12020":5},"type":10,"level":0}

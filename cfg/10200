@@ -1,1 +1,1 @@
-{"desc":"操作重型导弹的技能。每升一级，重型导弹的伤害提升5%。","id":10200,"depend":{},"type":1,"name":"重型导弹概论","attr_minor":3,"times":3,"attr_major":1,"level":0}
+{"name":"重型导弹概论","attr_minor":3,"desc":"操作重型导弹的技能。每升一级，重型导弹的伤害提升5%。","id":10200,"times":3,"attr_major":1,"depend":{"10050":3,"10110":3},"type":1,"level":0}

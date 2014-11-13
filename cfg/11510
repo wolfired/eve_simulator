@@ -1,1 +1,1 @@
-{"attr_minor":2,"times":2,"attr_major":4,"desc":"每升一级，护盾增效器的电磁抗性提高5%","level":0,"depend":{},"id":11510,"type":8,"name":"电磁护盾补偿"}
+{"name":"电磁护盾补偿","attr_minor":2,"desc":"每升一级，护盾增效器的电磁抗性提高5%","id":11510,"times":2,"attr_major":4,"depend":{"11540":4},"type":8,"level":0}

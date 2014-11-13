@@ -1,1 +1,1 @@
-{"id":10650,"attr_minor":3,"times":4,"name":"采矿驳船操作","type":4,"desc":"操作外空联合矿业(ORE)采矿驳船的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"采矿驳船操作","attr_minor":3,"desc":"操作外空联合矿业(ORE)采矿驳船的技能。","id":10650,"times":4,"attr_major":1,"depend":{"13010":4,"13740":3,"10660":3},"type":4,"level":0}

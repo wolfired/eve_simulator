@@ -1,1 +1,1 @@
-{"id":11030,"attr_minor":3,"times":10,"name":"米玛塔尔货舰操作","type":4,"desc":"操作米玛塔尔货舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"米玛塔尔货舰操作","attr_minor":3,"desc":"操作米玛塔尔货舰的技能。","id":11030,"times":10,"attr_major":1,"depend":{"11000":3,"10800":5},"type":4,"level":0}

@@ -1,1 +1,1 @@
-{"id":10830,"attr_minor":1,"times":6,"name":"后勤舰操作","type":4,"desc":"操作支援巡洋舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"后勤舰操作","attr_minor":1,"desc":"操作支援巡洋舰的技能。","id":10830,"times":6,"attr_major":3,"depend":{"10680":3,"13170":5,"13150":5},"type":4,"level":0}

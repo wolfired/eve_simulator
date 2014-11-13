@@ -1,1 +1,1 @@
-{"attr_minor":3,"id":10050,"desc":"操控导弹发射系统的基本技能。每升一级，导弹发射器的发射速率提升2%。","attr_major":1,"times":1,"depend":{},"type":1,"level":0,"name":"导弹发射器操作"}
+{"name":"导弹发射器操作","attr_minor":3,"desc":"操控导弹发射系统的基本技能。每升一级，导弹发射器的发射速率提升2%。","id":10050,"times":1,"attr_major":1,"depend":{},"type":1,"level":0}

@@ -1,1 +1,1 @@
-{"id":10810,"attr_minor":3,"times":8,"name":"工业指挥舰操作","type":4,"desc":"操作工业指挥舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"工业指挥舰操作","attr_minor":3,"desc":"操作工业指挥舰的技能。","id":10810,"times":8,"attr_major":1,"depend":{"10680":5,"10980":3,"12070":1},"type":4,"level":0}

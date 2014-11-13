@@ -1,1 +1,1 @@
-{"id":10860,"attr_minor":3,"times":2,"name":"加达里护卫舰操作","type":4,"desc":"操作加达里护卫舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"加达里护卫舰操作","attr_minor":3,"desc":"操作加达里护卫舰的技能。","id":10860,"times":2,"attr_major":1,"depend":{"10680":1},"type":4,"level":0}

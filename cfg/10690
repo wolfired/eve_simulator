@@ -1,1 +1,1 @@
-{"id":10690,"attr_minor":3,"times":4,"name":"盖伦特工业舰操作","type":4,"desc":"操作盖伦特工业舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"盖伦特工业舰操作","attr_minor":3,"desc":"操作盖伦特工业舰的技能。","id":10690,"times":4,"attr_major":1,"depend":{"10680":3},"type":4,"level":0}

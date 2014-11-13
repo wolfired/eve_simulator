@@ -1,1 +1,1 @@
-{"id":10480,"attr_minor":2,"times":5,"name":"信号频散学","type":3,"desc":"操作锁定干扰装备的技能。每升一级，所有ECM扰断器强度增加5%。","depend":{},"attr_major":4,"level":0}
+{"name":"信号频散学","attr_minor":2,"desc":"操作锁定干扰装备的技能。每升一级，所有ECM扰断器强度增加5%。","id":10480,"times":5,"attr_major":4,"depend":{"10380":4,"11310":5},"type":3,"level":0}

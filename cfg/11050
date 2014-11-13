@@ -1,1 +1,1 @@
-{"id":11050,"attr_minor":3,"times":16,"name":"米玛塔尔泰坦操作","type":4,"desc":"操作米玛塔尔泰坦战舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"米玛塔尔泰坦操作","attr_minor":3,"desc":"操作米玛塔尔泰坦战舰的技能。","id":11050,"times":16,"attr_major":1,"depend":{"11080":3,"11120":5,"12130":5,"10310":1},"type":4,"level":0}

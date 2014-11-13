@@ -1,1 +1,1 @@
-{"name":"艾玛加密技术原理","level":0,"id":11690,"times":5,"desc":"掌握艾玛帝国及其同盟使用的数据加密算法的技能。","attr_major":4,"type":10,"depend":{},"attr_minor":2}
+{"name":"艾玛加密技术原理","attr_minor":2,"desc":"掌握艾玛帝国及其同盟使用的数据加密算法的技能。","id":11690,"times":5,"attr_major":4,"depend":{"12360":2},"type":10,"level":0}

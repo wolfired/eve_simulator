@@ -1,1 +1,1 @@
-{"id":11190,"attr_minor":1,"times":6,"name":"重型拦截巡洋舰操作","type":4,"desc":"操作重型拦截巡洋舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"重型拦截巡洋舰操作","attr_minor":1,"desc":"操作重型拦截巡洋舰的技能。","id":11190,"times":6,"attr_major":3,"depend":{"10680":5,"10450":5,"12060":4},"type":4,"level":0}

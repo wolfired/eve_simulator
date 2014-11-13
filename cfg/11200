@@ -1,1 +1,1 @@
-{"id":11200,"attr_minor":1,"times":6,"name":"重型突击舰巡洋舰操作","type":4,"desc":"操作重型突击舰的技能。","depend":{},"attr_major":3,"level":0}
+{"name":"重型突击舰巡洋舰操作","attr_minor":1,"desc":"操作重型突击舰的技能。","id":11200,"times":6,"attr_major":3,"depend":{"10680":5,"11320":4,"11410":5,"11440":5},"type":4,"level":0}

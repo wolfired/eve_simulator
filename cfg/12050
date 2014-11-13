@@ -1,1 +1,1 @@
-{"name":"冶金学","level":0,"id":12050,"times":3,"desc":"理解矿物构成的高级技能。每升一级，材料效率研究的速度提升5%。","attr_major":4,"type":10,"depend":{},"attr_minor":2}
+{"name":"冶金学","attr_minor":2,"desc":"理解矿物构成的高级技能。每升一级，材料效率研究的速度提升5%。","id":12050,"times":3,"attr_major":4,"depend":{"11915":4},"type":10,"level":0}

@@ -1,1 +1,1 @@
-{"id":10870,"attr_minor":3,"times":10,"name":"加达里货舰操作","type":4,"desc":"操作加达里货舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"加达里货舰操作","attr_minor":3,"desc":"操作加达里货舰的技能。","id":10870,"times":10,"attr_major":1,"depend":{"10800":5,"10840":3},"type":4,"level":0}

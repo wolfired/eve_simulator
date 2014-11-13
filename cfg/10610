@@ -1,1 +1,1 @@
-{"id":10610,"attr_minor":3,"times":8,"name":"艾玛战列舰操作","type":4,"desc":"操作艾玛战列舰的技能。","depend":{},"attr_major":1,"level":0}
+{"name":"艾玛战列舰操作","attr_minor":3,"desc":"操作艾玛战列舰的技能。","id":10610,"times":8,"attr_major":1,"depend":{"10680":4,"10620":3},"type":4,"level":0}
