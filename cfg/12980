@@ -1,1 +1,1 @@
-{"name":"高级工业理论","level":0,"id":12980,"desc":"高效使用工业设施的技能。每升一级，所有制造和研究时间减少3%。","times":3,"attr_major":2,"attr_minor":4,"type":17,"depend":{}}
+{"name":"高级工业理论","desc":"高效使用工业设施的技能。每升一级，所有制造和研究时间减少3%。","attr_major":2,"times":3,"attr_minor":4,"depend":{"13010":3},"id":12980,"type":17,"level":0}

@@ -1,1 +1,1 @@
-{"name":"克隆设施动作技术","depend":{},"level":0,"id":12920,"times":10,"attr_minor":2,"attr_major":4,"type":16,"desc":"使用克隆舱的必备技能。\r\r每升一级，克隆舱的最大容量增加15%。"}
+{"name":"克隆设施动作技术","desc":"使用克隆舱的必备技能。\r\r每升一级，克隆舱的最大容量增加15%。","attr_major":4,"times":10,"attr_minor":2,"depend":{"11120":3,"11915":5},"id":12920,"type":16,"level":0}

@@ -1,1 +1,1 @@
-{"attr_major":3,"depend":{},"name":"零售技巧","attr_minor":5,"level":0,"id":12280,"times":2,"type":12,"desc":"组织并管理市场运营的技能。每升一级，有效订单数上限加8。"}
+{"name":"零售技巧","desc":"组织并管理市场运营的技能。每升一级，有效订单数上限加8。","attr_major":3,"times":2,"attr_minor":5,"depend":{"12290":2},"id":12280,"type":12,"level":0}

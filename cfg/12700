@@ -1,1 +1,1 @@
-{"name":"外科手术打击理论","level":0,"id":12700,"desc":"飞船结构弱点的知识。每升一级，所有武器炮台伤害提高3%。","times":4,"attr_major":1,"attr_minor":3,"type":15,"depend":{}}
+{"name":"外科手术打击理论","desc":"飞船结构弱点的知识。每升一级，所有武器炮台伤害提高3%。","attr_major":1,"times":4,"attr_minor":3,"depend":{"12680":4},"id":12700,"type":15,"level":0}

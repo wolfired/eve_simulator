@@ -1,1 +1,1 @@
-{"type":14,"depend":{},"name":"犯罪关系研究","times":3,"level":0,"id":12440,"attr_minor":4,"attr_major":5,"desc":"与不法NPC交涉的技能。每升一级，对于低统合部声望的NPC有效声望值增加4%。不与外交学或者关系学技能进行累加。"}
+{"name":"犯罪关系研究","desc":"与不法NPC交涉的技能。每升一级，对于低统合部声望的NPC有效声望值增加4%。不与外交学或者关系学技能进行累加。","attr_major":5,"times":3,"attr_minor":4,"depend":{"12470":3},"id":12440,"type":14,"level":0}

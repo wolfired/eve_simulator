@@ -1,1 +1,1 @@
-{"name":"神经毒化抵抗理论","depend":{},"level":0,"id":12940,"times":5,"attr_minor":2,"attr_major":4,"type":16,"desc":"精通生物反馈技术的技能，能够有效消除使用战斗增效剂而产生的常见副作用。"}
+{"name":"神经毒化抵抗理论","desc":"精通生物反馈技术的技能，能够有效消除使用战斗增效剂而产生的常见副作用。","attr_major":4,"times":5,"attr_minor":2,"depend":{"12950":1},"id":12940,"type":16,"level":0}

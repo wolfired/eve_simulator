@@ -1,1 +1,1 @@
-{"name":"高速射击理论","level":0,"id":12610,"desc":"增加炮台射击速度的技能。每升一级，武器炮台发射速率提高4%。","times":2,"attr_major":1,"attr_minor":3,"type":15,"depend":{}}
+{"name":"高速射击理论","desc":"增加炮台射击速度的技能。每升一级，武器炮台发射速率提高4%。","attr_major":1,"times":2,"attr_minor":3,"depend":{"12680":2},"id":12610,"type":15,"level":0}

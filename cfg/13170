@@ -1,1 +1,1 @@
-{"name":"远距锁定研究","level":0,"id":13170,"desc":"远程目标锁定的技能。每升一级，锁定距离提升5%。","times":2,"attr_major":4,"attr_minor":2,"type":18,"depend":{}}
+{"name":"远距锁定研究","desc":"远程目标锁定的技能。每升一级，锁定距离提升5%。","attr_major":4,"times":2,"attr_minor":2,"depend":{"11310":2},"id":13170,"type":18,"level":0}

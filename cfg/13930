@@ -1,1 +1,1 @@
-{"name":"加达里工程子系统","level":0,"depend":{},"times":1,"id":13930,"desc":"这是用来操纵三级科技舰船上加达里工程子系统的技能。","attr_minor":2,"type":22,"attr_major":4}
+{"name":"加达里工程子系统","desc":"这是用来操纵三级科技舰船上加达里工程子系统的技能。","attr_major":4,"times":1,"attr_minor":2,"depend":{"11400":5},"id":13930,"type":22,"level":0}

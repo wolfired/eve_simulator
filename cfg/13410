@@ -1,1 +1,1 @@
-{"name":"电磁装甲补偿理论","level":0,"id":13410,"desc":"每升一级，装甲附甲和电压式附甲的电磁抗性提高5%","times":2,"attr_major":4,"attr_minor":2,"type":20,"depend":{}}
+{"name":"电磁装甲补偿理论","desc":"每升一级，装甲附甲和电压式附甲的电磁抗性提高5%","attr_major":4,"times":2,"attr_minor":2,"depend":{"13400":4},"id":13410,"type":20,"level":0}

@@ -1,1 +1,1 @@
-{"name":"工业舰建造研究","level":0,"id":13000,"desc":"建造高级工业舰的技能。","times":3,"attr_major":4,"attr_minor":2,"type":17,"depend":{}}
+{"name":"工业舰建造研究","desc":"建造高级工业舰的技能。","attr_major":4,"times":3,"attr_minor":2,"depend":{"13430":2,"13010":3},"id":13000,"type":17,"level":0}

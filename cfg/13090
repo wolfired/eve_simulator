@@ -1,1 +1,1 @@
-{"name":"战列舰建造研究","level":0,"id":13090,"desc":"建造高级战列舰的技能。生产高级战列舰蓝图的必需技能。","times":8,"attr_major":4,"attr_minor":2,"type":17,"depend":{}}
+{"name":"战列舰建造研究","desc":"建造高级战列舰的技能。生产高级战列舰蓝图的必需技能。","attr_major":4,"times":8,"attr_minor":2,"depend":{"13070":4,"13030":4},"id":13090,"type":17,"level":0}

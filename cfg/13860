@@ -1,1 +1,1 @@
-{"name":"盖伦特电子子系统","level":0,"depend":{},"times":1,"id":13860,"desc":"这是用来操纵三级科技舰船上盖伦特电子子系统的技能。","attr_minor":2,"type":22,"attr_major":4}
+{"name":"盖伦特电子子系统","desc":"这是用来操纵三级科技舰船上盖伦特电子子系统的技能。","attr_major":4,"times":1,"attr_minor":2,"depend":{"11310":5},"id":13860,"type":22,"level":0}

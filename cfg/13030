@@ -1,1 +1,1 @@
-{"name":"护卫舰建造研究","level":0,"id":13030,"desc":"建造高级护卫舰的技能。生产高级护卫舰蓝图的必需技能。","times":2,"attr_major":4,"attr_minor":2,"type":17,"depend":{}}
+{"name":"护卫舰建造研究","desc":"建造高级护卫舰的技能。生产高级护卫舰蓝图的必需技能。","attr_major":4,"times":2,"attr_minor":2,"depend":{"13430":1,"13010":2},"id":13030,"type":17,"level":0}

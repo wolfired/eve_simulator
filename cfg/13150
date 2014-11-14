@@ -1,1 +1,1 @@
-{"name":"信号分析学","level":0,"id":13150,"desc":"操作锁定系统的技能。每升一级，锁定速度提升5%。","times":1,"attr_major":4,"attr_minor":2,"type":18,"depend":{}}
+{"name":"信号分析学","desc":"操作锁定系统的技能。每升一级，锁定速度提升5%。","attr_major":4,"times":1,"attr_minor":2,"depend":{"11310":1},"id":13150,"type":18,"level":0}

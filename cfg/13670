@@ -1,1 +1,1 @@
-{"name":"矿冶提升理论","level":0,"attr_major":2,"id":13670,"attr_minor":4,"desc":"使用采矿升级装备所需的技能。每升一级，采矿升级装备的CPU惩罚降低5%。","times":4,"type":21,"depend":{}}
+{"name":"矿冶提升理论","desc":"使用采矿升级装备所需的技能。每升一级，采矿升级装备的CPU惩罚降低5%。","attr_major":2,"times":4,"attr_minor":4,"depend":{"13570":3},"id":13670,"type":21,"level":0}

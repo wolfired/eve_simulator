@@ -1,1 +1,1 @@
-{"times":5,"depend":{},"level":0,"name":"岗哨无人机操控理论","id":13220,"desc":"操纵岗哨无人机的技能。每升一级，岗哨无人机的伤害提高5%。","attr_major":2,"type":19,"attr_minor":1}
+{"name":"岗哨无人机操控理论","desc":"操纵岗哨无人机的技能。每升一级，岗哨无人机的伤害提高5%。","attr_major":2,"times":5,"attr_minor":1,"depend":{"13340":4,"13350":4},"id":13220,"type":19,"level":0}

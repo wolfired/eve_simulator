@@ -1,1 +1,1 @@
-{"name":"哨站建造研究","level":0,"id":13060,"desc":"建造哨站的技能。","times":16,"attr_major":4,"attr_minor":2,"type":17,"depend":{}}
+{"name":"哨站建造研究","desc":"建造哨站的技能。","attr_major":4,"times":16,"attr_minor":2,"depend":{"13010":5,"11660":5,"13430":5},"id":13060,"type":17,"level":0}

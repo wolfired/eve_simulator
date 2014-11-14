@@ -1,1 +1,1 @@
-{"times":5,"depend":{},"level":0,"name":"无人机控制理论","id":13350,"desc":"使舰长更好地维护无人机的技能。每升一级，无人机伤害和采矿量提高10%。","attr_major":2,"type":19,"attr_minor":1}
+{"name":"无人机控制理论","desc":"使舰长更好地维护无人机的技能。每升一级，无人机伤害和采矿量提高10%。","attr_major":2,"times":5,"attr_minor":1,"depend":{"13330":5},"id":13350,"type":19,"level":0}

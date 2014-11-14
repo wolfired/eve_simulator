@@ -1,1 +1,1 @@
-{"times":1,"depend":{},"level":0,"name":"无人机精准射击","id":13340,"desc":"提升无人机最佳射程的技能。","attr_major":2,"type":19,"attr_minor":1}
+{"name":"无人机精准射击","desc":"提升无人机最佳射程的技能。","attr_major":2,"times":1,"attr_minor":1,"depend":{"13330":5},"id":13340,"type":19,"level":0}

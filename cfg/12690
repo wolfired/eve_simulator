@@ -1,1 +1,1 @@
-{"name":"受控点射理论","level":0,"id":12690,"desc":"更好地控制武器炮台电容消耗的技能。每升一级，武器炮台的电容消耗减少5%。","times":2,"attr_major":1,"attr_minor":3,"type":15,"depend":{}}
+{"name":"受控点射理论","desc":"更好地控制武器炮台电容消耗的技能。每升一级，武器炮台的电容消耗减少5%。","attr_major":1,"times":2,"attr_minor":3,"depend":{"12680":2},"id":12690,"type":15,"level":0}

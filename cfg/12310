@@ -1,1 +1,1 @@
-{"attr_major":5,"depend":{},"name":"商业巨头","attr_minor":2,"level":0,"id":12310,"times":6,"type":12,"desc":"组织并管理超大规模市场运营的技能。每升一级，有效订单数上限加32。"}
+{"name":"商业巨头","desc":"组织并管理超大规模市场运营的技能。每升一级，有效订单数上限加32。","attr_major":5,"times":6,"attr_minor":2,"depend":{"12300":5,"12330":4},"id":12310,"type":12,"level":0}

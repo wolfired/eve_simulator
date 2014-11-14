@@ -1,1 +1,1 @@
-{"name":"批量生产学","level":0,"id":13040,"desc":"操作多个工厂的技能。每升一级，可同时多运行一个制造项目。","times":2,"attr_major":2,"attr_minor":4,"type":17,"depend":{}}
+{"name":"批量生产学","desc":"操作多个工厂的技能。每升一级，可同时多运行一个制造项目。","attr_major":2,"times":2,"attr_minor":4,"depend":{"13010":3},"id":13040,"type":17,"level":0}
