@@ -216,12 +216,12 @@
           <Include href="component/TextInput.xml" itemID="44b159e1-000000fd" lastModified="1415326730"/>
           <Include href="component/TileList.xml" itemID="4517534e-00000034" lastModified="1415326730"/>
           <Include href="component/UIScrollBar.xml" itemID="44aaa686-00000064" lastModified="1415326730"/>
-          <Include href="ui/Skin_SkillEditWindow.xml" itemID="544de29e-000001d9" lastModified="1415415637"/>
-          <Include href="ui/Skin_SkillItem4Edit.xml" itemID="545d7c2b-00000266" lastModified="1415412803"/>
-          <Include href="ui/Skin_SkillItem4Outline.xml" itemID="545d7c0f-00000260" lastModified="1415413615"/>
-          <Include href="ui/Skin_SkillItem4Study.xml" itemID="545d7c35-0000026c" lastModified="1415415883"/>
-          <Include href="ui/Skin_SkillOutlineWindow.xml" itemID="544de278-000001d5" lastModified="1415367829"/>
-          <Include href="ui/Skin_SkillStudyWindow.xml" itemID="545c8a18-0000083d" lastModified="1415426654"/>
+          <Include href="ui/Skin_SkillEditWindow.xml" itemID="544de29e-000001d9" lastModified="1415860045"/>
+          <Include href="ui/Skin_SkillItem4Edit.xml" itemID="546444cf-000002d7" lastModified="1415860057"/>
+          <Include href="ui/Skin_SkillItem4Outline.xml" itemID="545d7c0f-00000260" lastModified="1415857520"/>
+          <Include href="ui/Skin_SkillItem4Study.xml" itemID="545d7c35-0000026c" lastModified="1415857514"/>
+          <Include href="ui/Skin_SkillOutlineWindow.xml" itemID="544de278-000001d5" lastModified="1415858027"/>
+          <Include href="ui/Skin_SkillStudyWindow.xml" itemID="545c8a18-0000083d" lastModified="1415857690"/>
      </symbols>
      <timelines>
           <DOMTimeline name="场景 1">
@@ -230,25 +230,22 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillOutlineWindow" centerPoint3DX="-89" centerPoint3DY="123.35">
-                                             <matrix>
-                                                  <Matrix tx="-162" ty="-39.65"/>
-                                             </matrix>
+                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillOutlineWindow" centerPoint3DX="73" centerPoint3DY="163">
                                              <transformationPoint>
                                                   <Point x="73" y="163"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillEditWindow" centerPoint3DX="328.3" centerPoint3DY="0.35">
+                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillEditWindow" centerPoint3DX="398" centerPoint3DY="113">
                                              <matrix>
-                                                  <Matrix tx="173.3" ty="-112.65"/>
+                                                  <Matrix tx="243"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="155" y="113"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillStudyWindow" centerPoint3DX="390.3" centerPoint3DY="338.2">
+                                        <DOMSymbolInstance libraryItemName="ui/Skin_SkillStudyWindow" centerPoint3DX="465.5" centerPoint3DY="491">
                                              <matrix>
-                                                  <Matrix tx="167.8" ty="225.2"/>
+                                                  <Matrix tx="243" ty="378"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="222.5" y="113"/>
@@ -263,6 +260,11 @@
      </timelines>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="101592" publishTime="1415944596"/>
+          <PublishItem publishSize="101529" publishTime="1415858100"/>
+          <PublishItem publishSize="101534" publishTime="1415858036"/>
+          <PublishItem publishSize="101261" publishTime="1415857020"/>
+          <PublishItem publishSize="101181" publishTime="1415855834"/>
           <PublishItem publishSize="101244" publishTime="1415620691"/>
           <PublishItem publishSize="101251" publishTime="1415426682"/>
           <PublishItem publishSize="101252" publishTime="1415418326"/>
@@ -278,11 +280,6 @@
           <PublishItem publishSize="99743" publishTime="1415367835"/>
           <PublishItem publishSize="99742" publishTime="1415367740"/>
           <PublishItem publishSize="99783" publishTime="1415364567"/>
-          <PublishItem publishSize="99780" publishTime="1415364499"/>
-          <PublishItem publishSize="99780" publishTime="1415364317"/>
-          <PublishItem publishSize="99716" publishTime="1415362687"/>
-          <PublishItem publishSize="99674" publishTime="1415362531"/>
-          <PublishItem publishSize="99674" publishTime="1415362522"/>
      </publishHistory>
      <swcCache>
           <Swc hashKey="k718tUOF1.A1OSpQnqdJJ0" href="5gjale3brl.swc">

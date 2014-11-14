@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillStudyWindow" itemID="545c8a18-0000083d" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillStudyWindow" lastModified="1415426654" lastUniqueIdentifier="18" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillStudyWindow" itemID="545c8a18-0000083d" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillStudyWindow" lastModified="1415857690" lastUniqueIdentifier="18" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillStudyWindow">
       <layers>
@@ -152,7 +152,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 4" color="#FF4FFF" locked="true" current="true" isSelected="true">
+        <DOMLayer name="图层 4" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -501,11 +501,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 2" color="#9933CC" locked="true">
+        <DOMLayer name="图层 2" color="#9933CC" locked="true" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="231" centerPoint3DY="121" uniqueID="7">
+                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" selected="true" centerPoint3DX="231" centerPoint3DY="121" uniqueID="7">
                   <matrix>
                     <Matrix a="4.580078125" d="1.97996520996094" tx="2" ty="22"/>
                   </matrix>

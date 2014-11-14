@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillEditWindow" itemID="544de29e-000001d9" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillEditWindow" lastModified="1415415637" lastUniqueIdentifier="19" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillEditWindow" itemID="544de29e-000001d9" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillEditWindow" lastModified="1415860045" lastUniqueIdentifier="21" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillEditWindow">
       <layers>
@@ -26,7 +26,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 2" color="#9933CC" locked="true" current="true" isSelected="true">
+        <DOMLayer name="图层 2" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -126,14 +126,14 @@
                     <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#F0F0F0" quality="3" strength="5"/>
                   </filters>
                 </DOMInputText>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_save" centerPoint3DX="364" centerPoint3DY="243" uniqueID="8">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_save" centerPoint3DX="308" centerPoint3DY="363" uniqueID="8">
                   <matrix>
-                    <Matrix tx="314" ty="232"/>
+                    <Matrix tx="258" ty="352"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.8'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="emphasized">
@@ -159,14 +159,14 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_cancel" centerPoint3DX="364" centerPoint3DY="273" uniqueID="9">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_cancel" centerPoint3DX="410" centerPoint3DY="363" uniqueID="9">
                   <matrix>
-                    <Matrix tx="314" ty="262"/>
+                    <Matrix tx="360" ty="352"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.9'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="emphasized">
@@ -199,7 +199,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.10'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -232,7 +232,7 @@
                   <transformationPoint>
                     <Point x="40" y="1.5"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.11'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="direction">
@@ -335,7 +335,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.14'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -368,7 +368,7 @@
                   <transformationPoint>
                     <Point x="50" y="11"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.15'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="dataProvider">
@@ -433,7 +433,7 @@
                   <transformationPoint>
                     <Point x="40" y="1.5"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.16'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="direction">
@@ -481,14 +481,14 @@
                     <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#F0F0F0" quality="3" strength="5"/>
                   </filters>
                 </DOMDynamicText>
-                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="169" centerPoint3DY="257.5" uniqueID="18">
+                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="231" centerPoint3DY="288" uniqueID="18">
                   <matrix>
-                    <Matrix a="2.37998962402344" d="0.970046997070313" tx="50" ty="209"/>
+                    <Matrix a="4.5799560546875" d="1.18006896972656" tx="2" ty="229"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="50"/>
                   </transformationPoint>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='2.18'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath=''>
 </component>
 ]]></dataBindingXML>
                   <parametersAsXML><![CDATA[   <property id="enabled">
@@ -523,6 +523,22 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
+                <DOMInputText name="_txt_search" fontRenderingMode="device" width="176" height="13">
+                  <matrix>
+                    <Matrix tx="52" ty="211"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#F0F0F0" quality="3" strength="5"/>
+                  </filters>
+                </DOMInputText>
               </elements>
             </DOMFrame>
           </frames>
@@ -606,15 +622,30 @@
                     </SolidStroke>
                   </stroke>
                 </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="180" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="484.95" ty="313"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="图层 1" color="#4FFF4F" locked="true">
+        <DOMLayer name="图层 1" color="#4FFF4F" locked="true" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="436" objectHeight="310" x="-434.95" y="-104" lockFlag="true">
+                <DOMRectangleObject objectWidth="462" objectHeight="376" x="-434.95" y="-104" lockFlag="true">
                   <matrix>
                     <Matrix tx="434.95" ty="104"/>
                   </matrix>

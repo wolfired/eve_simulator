@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Edit" itemID="545d7c2b-00000266" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Edit" lastModified="1415412803" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Edit" itemID="546444cf-000002d7" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Edit" lastModified="1415860057" lastUniqueIdentifier="2" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillItem4Edit">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="_txt_name" selected="true" fontRenderingMode="device" width="176" height="13" isSelectable="false">
+                <DOMDynamicText name="_txt_name" fontRenderingMode="device" width="176" height="13" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="2"/>
                   </matrix>
@@ -45,6 +45,77 @@
                   <textRuns>
                     <DOMTextRun>
                       <characters>S</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMComponentInstance libraryItemName="component/Slider" name="_sd_depend_level" selected="true" centerPoint3DX="140" centerPoint3DY="21.5" uniqueID="2">
+                  <matrix>
+                    <Matrix tx="100" ty="20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="40" y="1.5"/>
+                  </transformationPoint>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Skin_SkillItem4Edit' oldCopiedComponentPath='2'>
+</component>
+]]></dataBindingXML>
+                  <parametersAsXML><![CDATA[   <property id="direction">
+      <Inspectable name="direction" variable="direction" category="" verbose="0" defaultValue="horizontal" enumeration="horizontal,vertical" type="List"/>
+   </property>
+   <property id="enabled">
+      <Inspectable name="enabled" variable="enabled" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="liveDragging">
+      <Inspectable name="liveDragging" variable="liveDragging" category="" verbose="0" defaultValue="true" type="Boolean"/>
+   </property>
+   <property id="maximum">
+      <Inspectable name="maximum" variable="maximum" category="" verbose="0" defaultValue="5" type="Number"/>
+   </property>
+   <property id="minimum">
+      <Inspectable name="minimum" variable="minimum" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="snapInterval">
+      <Inspectable name="snapInterval" variable="snapInterval" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="tickInterval">
+      <Inspectable name="tickInterval" variable="tickInterval" category="" verbose="0" defaultValue="0" type="Number"/>
+   </property>
+   <property id="value">
+      <Inspectable name="value" variable="value" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+   <property id="visible">
+      <Inspectable name="visible" variable="visible" category="" verbose="1" defaultValue="true" type="Boolean"/>
+   </property>
+]]></parametersAsXML>
+                </DOMComponentInstance>
+                <DOMDynamicText name="_txt_depend_level" fontRenderingMode="device" width="88" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="22"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
+                  </filters>
+                </DOMDynamicText>
+                <DOMDynamicText name="_txt_depend" fontRenderingMode="device" width="13" height="13" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="184" ty="22"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>D</characters>
                       <textAttrs>
                         <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="SimSun"/>
                       </textAttrs>
@@ -95,6 +166,36 @@
                 <DOMRectangleObject objectWidth="17" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
                   <matrix>
                     <Matrix tx="635.95" ty="104"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="92" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="434.95" ty="124"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" caps="none">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="17" objectHeight="17" x="-434.95" y="-104" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="616.95" ty="124"/>
                   </matrix>
                   <fill>
                     <SolidColor color="#FFFFFF"/>

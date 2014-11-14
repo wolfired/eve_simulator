@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Outline" itemID="545d7c0f-00000260" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Outline" lastModified="1415413615" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Outline" itemID="545d7c0f-00000260" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Outline" lastModified="1415857520" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillItem4Outline">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="_txt_name" selected="true" fontRenderingMode="device" width="176" height="13" isSelectable="false">
+                <DOMDynamicText name="_txt_name" fontRenderingMode="device" width="176" height="13" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="2"/>
                   </matrix>
@@ -38,7 +38,7 @@
                     <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
                   </filters>
                 </DOMDynamicText>
-                <DOMDynamicText name="_txt_study" fontRenderingMode="device" width="13" height="13" isSelectable="false">
+                <DOMDynamicText name="_txt_study" selected="true" fontRenderingMode="device" width="13" height="13" isSelectable="false">
                   <matrix>
                     <Matrix tx="203" ty="2"/>
                   </matrix>

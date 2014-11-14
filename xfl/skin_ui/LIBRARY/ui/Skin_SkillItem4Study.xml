@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Study" itemID="545d7c35-0000026c" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Study" lastModified="1415415883" lastUniqueIdentifier="2" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillItem4Study" itemID="545d7c35-0000026c" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillItem4Study" lastModified="1415857514" lastUniqueIdentifier="2" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillItem4Study">
       <layers>
@@ -93,7 +93,7 @@
    </property>
 ]]></parametersAsXML>
                 </DOMComponentInstance>
-                <DOMDynamicText name="_txt_level" fontRenderingMode="device" width="88" height="13" isSelectable="false">
+                <DOMDynamicText name="_txt_study_level" selected="true" fontRenderingMode="device" width="88" height="13" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="22"/>
                   </matrix>

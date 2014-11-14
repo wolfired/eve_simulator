@@ -289,7 +289,7 @@
                   <matrix>
                     <Matrix d="1.00311279296875"/>
                   </matrix>
-                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.7.9.60'>
+                  <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='1.7.10.60'>
 </component>
 ]]></dataBindingXML>
                 </DOMCompiledClipInstance>

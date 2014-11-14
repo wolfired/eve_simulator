@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillOutlineWindow" itemID="544de278-000001d5" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillOutlineWindow" lastModified="1415367829" lastUniqueIdentifier="30" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ui/Skin_SkillOutlineWindow" itemID="544de278-000001d5" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="skin.Skin_SkillOutlineWindow" lastModified="1415858027" lastUniqueIdentifier="30" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Skin_SkillOutlineWindow">
       <layers>
@@ -13,9 +13,9 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_new" centerPoint3DX="61" centerPoint3DY="582" uniqueID="6">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_new" centerPoint3DX="61" centerPoint3DY="648" uniqueID="6">
                   <matrix>
-                    <Matrix a="1.17999267578125" tx="2" ty="571"/>
+                    <Matrix a="1.17999267578125" tx="2" ty="637"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -95,9 +95,9 @@
                     <GlowFilter blurX="1.20000004768372" blurY="1.20000004768372" color="#FFFFFF" quality="3" strength="5"/>
                   </filters>
                 </DOMDynamicText>
-                <DOMComponentInstance libraryItemName="component/Button" name="_btn_study" centerPoint3DX="181" centerPoint3DY="582" uniqueID="25">
+                <DOMComponentInstance libraryItemName="component/Button" name="_btn_study" centerPoint3DX="181" centerPoint3DY="648" uniqueID="25">
                   <matrix>
-                    <Matrix a="1.17999267578125" tx="122" ty="571"/>
+                    <Matrix a="1.17999267578125" tx="122" ty="637"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50" y="11"/>
@@ -136,12 +136,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="121" centerPoint3DY="305.05" uniqueID="29">
+                <DOMComponentInstance libraryItemName="component/ScrollPane" name="_sp" centerPoint3DX="121" centerPoint3DY="337.8" uniqueID="29">
                   <matrix>
-                    <Matrix a="2.37998962402344" d="5.22006225585938" tx="2" ty="44"/>
+                    <Matrix a="2.37998962402344" d="5.880126953125" tx="2" ty="44"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50" y="50"/>
+                    <Point x="50" y="49.95"/>
                   </transformationPoint>
                   <dataBindingXML><![CDATA[<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='场景 1' oldCopiedComponentPath='3.29'>
 </component>
@@ -200,7 +200,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="241" objectHeight="594" x="-434.95" y="-104" selected="true" lockFlag="true">
+                <DOMRectangleObject objectWidth="241" objectHeight="660" x="-434.95" y="-104" lockFlag="true">
                   <matrix>
                     <Matrix tx="434.95" ty="104"/>
                   </matrix>
