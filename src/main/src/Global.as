@@ -71,7 +71,10 @@ package{
 		private var _skill_set:Array = [];
 		private var _skill_set4edit:Array = [];
 		private var _skill_set4study:Array = [];
+		private var _skill_set4study_with_depend:Array = [];
+		
 		private var _max_skill_id:uint = 10000;
+		
 //		private var _skill_configs_dir:File = new File();
 		private var _skill_configs_dir:File = new File("E:/workspace_git/eve_simulator/cfg");
 		
@@ -156,7 +159,7 @@ package{
 				_skill_study_window = new SkillStudyWindow();
 				
 				var offset_x:Number = 243;
-				var offset_y:Number = 312;
+				var offset_y:Number = 378;
 				_skill_study_window.x = offset_x;
 				_skill_study_window.y = offset_y;
 			}
@@ -175,14 +178,40 @@ package{
 		}
 		
 		public function isSkillInStudy(skill_id:uint):Boolean{
-			return null != _skill_set4study[skill_id];
+			return null != skill_set4study_with_depend[skill_id];
+		}
+		
+		private function get skill_set4study_with_depend():Array{
+			var f:Function = function(sc:SkillConfig):void{
+				_skill_set4study_with_depend[sc.id] = sc;
+				
+				var depen_cfg:SkillConfig;
+				for (var sck:String in sc.depend) {
+					depen_cfg = _skill_set[sck];
+					if(depen_cfg.getLevel4Study() < sc.depend[sck]){
+						depen_cfg.setLevel4Study(sc.depend[sck]);
+					}
+					f(depen_cfg);
+				}
+			}
+			
+			_skill_set4study_with_depend.length = 0;
+			for each (var temp_cfg:SkillConfig in _skill_set4study) {
+				f(temp_cfg);
+			}
+			
+			return _skill_set4study_with_depend;
 		}
 		
 		public function cleanStudySkill():void{
-			if(0 < _skill_set4study.length){
-				_skill_set4study.length = 0;
-				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			_skill_set4study.length = 0;
+			
+			for each (var skill_cfg:SkillConfig in _skill_set4study_with_depend) {
+				skill_cfg.setLevel4Study(0);
 			}
+			_skill_set4study_with_depend.length = 0;
+			
+			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
 		}
 		
 		private function readFileContent(file:File):String{
@@ -211,18 +240,27 @@ package{
 			_skill_set[skill_config.id] = skill_config;
 			writeFileContent(_skill_configs_dir.nativePath + "\\" + skill_config.id, encodeJSON(skill_config));
 			
-			
-			if(this.isSkillInStudy(skill_config.id) && skill_config.isMaxLevel()){
-				this.studySkill(skill_config);
-			}else{
-				GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
+			if(this.isSkillInStudy(skill_config.id)){
+				if(skill_config.isMaxLevel()){
+					this.studySkill(skill_config);
+				}else{
+					var depen_key:String;
+					var depen_cfg:SkillConfig;
+					for (depen_key in skill_config.depend) {
+						depen_cfg = _skill_set[depen_key];
+						depen_cfg.setLevel4Study(0);
+					}
+				}
 			}
+			
+			GlobalEvent.trigger(GlobalEvent.EVT_SKILL_SET_UPDATE);
 		}
 		
 		public function studySkill(skill_config:SkillConfig):void{
 			if(null  == _skill_set4study[skill_config.id]){
-				_skill_set4study[skill_config.id] = skill_config;	
+				_skill_set4study[skill_config.id] = skill_config;
 			}else{
+				skill_config.setLevel4Study(0);
 				delete _skill_set4study[skill_config.id];
 			}
 			
@@ -231,6 +269,18 @@ package{
 			if(null == _skill_study_window || null == _skill_study_window.parent){
 				this.showSkillStudyWindow();
 			}
+		}
+		
+		public function searchSkill(key_word:String):Array{
+			var result:Array = [];
+			
+			for each (var skill_config:SkillConfig in _skill_set) {
+				if(-1 < skill_config.name.indexOf(key_word)){
+					result.push(skill_config);
+				}
+			}
+			
+			return result;
 		}
 		
 		public function encodeJSON(value:*):String{
@@ -259,7 +309,7 @@ package{
 		
 		public function get study_arr():Array{
 			var result:Array = [];
-			for each (var skill_config:SkillConfig in _skill_set4study) {
+			for each (var skill_config:SkillConfig in skill_set4study_with_depend) {
 				result.push(skill_config);
 			}
 			

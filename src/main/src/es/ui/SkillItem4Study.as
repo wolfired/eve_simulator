@@ -10,7 +10,8 @@ package es.ui{
 
 	public class SkillItem4Study extends SkillItem4Outline{
 		private function get __sd_study_level() : Slider { return _skin["_sd_study_level"]; }
-		private function get __txt_level() : TextField { return _skin["_txt_level"]; }
+		
+		private function get __txt_study_level() : TextField { return _skin["_txt_study_level"]; }
 		
 		public function SkillItem4Study(skin_clazz:Class=null){
 			if(null == skin_clazz){
@@ -23,16 +24,8 @@ package es.ui{
 			super.skill_cfg = value;
 			
 			__sd_study_level.minimum = _skill_cfg.level;
-			this.setLevel();
-		}
-		
-		public function get study_level():uint{
-			return __sd_study_level.value;
-		}
-		
-		public function setStudyLevel(level:uint):void{
-			__sd_study_level.value = level;
-			this.setLevel();
+			__sd_study_level.value = _skill_cfg.getLevel4Study();
+			this.showLevel();
 		}
 		
 		override protected function cleanup():void{
@@ -48,11 +41,12 @@ package es.ui{
 		}
 		
 		private function onChange(event:SliderEvent):void{
-			this.setLevel();
+			_skill_cfg.setLevel4Study(__sd_study_level.value);
+			this.showLevel();
 		}
 		
-		private function setLevel():void{
-			__txt_level.text = "Lv." + _skill_cfg.level + " >> " + __sd_study_level.value;
+		private function showLevel():void{
+			__txt_study_level.text = "Lv." + _skill_cfg.level + " >> " + _skill_cfg.getLevel4Study();
 		}
 	}
 }

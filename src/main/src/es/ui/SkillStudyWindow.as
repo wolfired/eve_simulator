@@ -117,7 +117,7 @@ package es.ui{
 		private function onSim(event:MouseEvent):void{
 			var t:Number = 0.0;
 			for each (var skill_item:SkillItem4Study in _item_arr) {
-				t += skill_item.skill_cfg.time(skill_item.study_level,
+				t += skill_item.skill_cfg.time(
 					(_map[skill_item.skill_cfg.attr_major] as Slider).value,
 					(_map[skill_item.skill_cfg.attr_minor] as Slider).value)
 			}
@@ -145,9 +145,11 @@ package es.ui{
 		private function onLevelChange(event:SliderEvent):void{
 			__txt_l.text = __txt_l.text.replace(/\d+/g, __sd_l.value);
 			
-			for each (var skill_item:SkillItem4Study in _item_arr) {
-				skill_item.setStudyLevel(__sd_l.value);
+			var tmp_arr:Array = Global.ins.study_arr;
+			for each (var skill_cfg:SkillConfig in tmp_arr) {
+				skill_cfg.setLevel4Study(__sd_l.value);
 			}
+			this.showSkills();
 		}
 		
 		private function onSkillSetUpdate(event:GlobalEvent):void{

@@ -5,7 +5,7 @@ package{
 	
 	import es.ui.VisualLayer;
 	
-	[SWF(width="1024", height="595")]
+	[SWF(width="1024", height="661")]
 	public class eve_simulator extends VisualLayer{
 		public function eve_simulator(){
 			this.stage.align = StageAlign.LEFT;
